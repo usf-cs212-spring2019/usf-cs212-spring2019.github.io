@@ -1,0 +1,5 @@
+title: "CS 212 Software Development"
+name: "Sophie Engle"
+repository: "usf-cs212-spring2019/usf-cs212-spring2019.github.io"
+timezone: "America/Los_Angeles"
+permalink: /guides/:title:output_ext
