@@ -21,3 +21,38 @@ tt,
 hr {
   border-bottom: 1px solid #dbdbdb;
 }
+
+.schedule .week {
+  display: inline-flex;
+  overflow: hidden;
+  width: 3.75rem;
+  white-space: nowrap;
+}
+
+.schedule ul.icons {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  list-style: none;
+  margin-left: 1.75rem;
+  line-height: normal;
+}
+
+.schedule ul.icons li .li-icon {
+  position: absolute;
+  left: -1.75em;
+  width: 1.75em;
+  text-align: center;
+  line-height: inherit;
+}
+
+.schedule ul.icons li {
+  position: relative;
+}
+
+.schedule ul.icons li a {
+  color: inherit;
+}
+
+.schedule ul.icons li a:hover {
+  text-decoration: underline;
+}
