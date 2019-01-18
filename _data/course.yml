@@ -7,6 +7,9 @@ github: https://github.com/usf-cs212-spring2019
 piazza: https://piazza.com/usfca/spring2019/cs212/home
 canvas: https://usfca.instructure.com/courses/1582958
 
+beg_date: 2019-01-22
+end_date: 2019-05-16
+
 lectures:
   - label: CS 212-01 (CRN 20993)
     items:
