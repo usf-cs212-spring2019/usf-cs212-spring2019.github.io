@@ -19,7 +19,7 @@ lectures:
       - text: 4:35pm &ndash; 6:20pm
         icon: fas fa-clock
 
-      - text: Lo Schiavo Science 307
+      - text: Lo Schiavo Science G12
         icon: fas fa-map-marker-alt
         link: https://www.usfca.edu/campus-buildings-services/main-campus/lo-schiavo
 
@@ -64,7 +64,7 @@ instructor:
       - text: 2:45pm &ndash; 4:15pm
         icon: fas fa-clock
 
-      - text: Harney Science 411
+      - text: Harney Science 412B
         icon: fas fa-map-marker-alt
         link: https://www.usfca.edu/campus-buildings-services/main-campus/harney-science
 
