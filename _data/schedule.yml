@@ -175,7 +175,7 @@ weeks:
 
       - text: Project Euler
         icon: *icon_code
-        type: grey
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Project%20Euler
         bump: true
 
       deadlines:
