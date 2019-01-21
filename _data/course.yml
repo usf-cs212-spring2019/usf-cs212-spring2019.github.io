@@ -195,9 +195,8 @@ learning_outcomes:
   - Independently design programs
   - Produce professional-quality source code
   - Implement large programs with 1,000 to 2,000 source lines of code (SLOC)
-  - Design and execute tests to identify software bugs
-  - Repair software bugs, redesigning and refactoring code when necessary
-  - Utilize, analyze, and critique code written by others
+  - Design and execute tests to find and repair software bugs
+  - Redesign and refactor code to improve quality
 
 grade_breakdown:
   - text:  Participation

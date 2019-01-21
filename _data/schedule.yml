@@ -49,51 +49,61 @@ assignments:
       text: ArgumentMap
       icon: *icon_homework
       date: 2019-02-01
+      link: https://usfca.instructure.com/courses/1582958/assignments/6818764
 
   - homework2: &homework2
       text: JSONWriter
       icon: *icon_homework
       date: 2019-02-08
+      link: https://usfca.instructure.com/courses/1582958/assignments/6818765
 
   - homework3: &homework3
       text: WordIndex
       icon: *icon_homework
       date: 2019-02-15
+      link: https://usfca.instructure.com/courses/1582958/assignments/6818766
 
   - homework4: &homework4
       text: Homework TBA
       icon: *icon_homework
       date: 2019-02-22
+      link: https://usfca.instructure.com/courses/1582958/assignments/6818767
 
   - homework5: &homework5
       text: Homework TBA
       icon: *icon_homework
       date: 2019-03-01
+      link: https://usfca.instructure.com/courses/1582958/assignments/6818768
 
   - homework6: &homework6
       text: Homework TBA
       icon: *icon_homework
       date: 2019-03-08
+      link: https://usfca.instructure.com/courses/1582958/assignments/6818769
 
   - homework7: &homework7
       text: ReadWriteLock
       icon: *icon_homework
       date: 2019-03-29
+      link: https://usfca.instructure.com/courses/1582958/assignments/6818770
 
   - homework8: &homework8
       text: Homework TBA
       icon: *icon_homework
       date: 2019-04-05
+      link: https://usfca.instructure.com/courses/1582958/assignments/6818772
 
   - homework9: &homework9
       text: LinkParser
       icon: *icon_homework
       date: 2019-04-12
+      link: https://usfca.instructure.com/courses/1582958/assignments/6818771
 
   - homework10: &homework10
       text: HTMLCleaner
       icon: *icon_homework
       date: 2019-04-26
+      link: https://usfca.instructure.com/courses/1582958/assignments/6818773
 
   - project1: &project1
       text: Project 1
@@ -115,6 +125,30 @@ assignments:
       icon: *icon_project
       date: 2019-04-30
 
+  - csevent1: &csevent1
+      text: CS Event 1
+      icon: *icon_participation
+      date: 2019-03-08
+      link: https://usfca.instructure.com/courses/1582958/assignments/6818801
+
+  - csevent2: &csevent2
+      text: CS Event 2
+      icon: *icon_participation
+      date: 2019-05-10
+      link: https://usfca.instructure.com/courses/1582958/assignments/6818785
+
+  - piazza1: &piazza1
+      text: Piazza Post 1
+      icon: *icon_participation
+      date: 2019-03-08
+      link: https://usfca.instructure.com/courses/1582958/assignments/6823170
+
+  - piazza2: &piazza2
+      text: Piazza Post 2
+      icon: *icon_participation
+      date: 2019-05-10
+      link: https://usfca.instructure.com/courses/1582958/assignments/6823171
+
 # schedule
 weeks:
 - week: 1
@@ -122,28 +156,90 @@ weeks:
     - type: Lecture
       date: 2019-01-22
       resources:
+      - text: Course Introduction
+        link: https://drive.google.com/open?id=0BxYofk0iB_updW9ITzJDazVYT28
+        icon: *icon_slides
+
       - text: Course Syllabus
         link: /syllabus.html
         icon: *icon_website
+
+      - text: Lab Session
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/assignments/6818820
+        bump: true
+
+      - text: Course Syllabus
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/assignments/6818916
+
       - text: Project Euler
         icon: *icon_code
         type: grey
+        bump: true
+
+      deadlines:
+      - text: Lab Session
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/assignments/6818820
+        date: 2019-01-22
+
+      - text: Course Syllabus
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/assignments/6818916
+        date: 2019-01-22
+
     - type: Lecture
       date: 2019-01-24
       resources:
+      - <<: *csevent1
+
+      - <<: *piazza1
+
       - text: File IO
         icon: *icon_pending
         type: grey
+        bump: true
+
       - text: Exceptions
         icon: *icon_pending
         type: grey
+
     - type: Lab
       date: 2019-01-25
       resources:
-      - <<: *homework1 # argumentmap
-      deadlines:
-      - text: Github Survey
+      - text: Attendance Mandatory
+        link: https://usfca.instructure.com/courses/1582958/assignments/6823080
+        icon:
+          class: fas fa-exclamation-triangle has-text-warning
+
+      - text: Github Setup
         icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/assignments/6818876
+        bump: true
+
+      - text: Piazza Setup
+        icon: *icon_participation
+        link: https://usfca.instructure.com/courses/1582958/assignments/6823166
+
+      - text: 'Guides: Basics'
+        bump: true
+      - text: 'Guides: Setup'
+      - text: 'Guides: Homework'
+
+      - <<: *homework1 # argumentmap
+        bump: true
+
+      deadlines:
+      - text: Github Setup
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/assignments/6818876
+        date: 2019-01-25
+
+      - text: Piazza Setup
+        icon: *icon_participation
+        link: https://usfca.instructure.com/courses/1582958/assignments/6823166
+        date: 2019-01-25
 
 - week: 2
   days:
@@ -153,24 +249,35 @@ weeks:
       - text: Data Structures
         icon: *icon_pending
         type: grey
+
       deadlines:
       - text: Add Deadline
         icon:
           class: far fa-calendar-plus
         date: 2019-01-28
+
     - type: Lecture
       date: 2019-01-31
       resources:
       - text: Iteration
         icon: *icon_pending
         type: grey
+
       - text: Search
         icon: *icon_pending
         type: grey
+
     - type: Lab
       date: 2019-02-01
       resources:
+      - text: Attendance Mandatory
+        link: https://usfca.instructure.com/courses/1582958/assignments/6823081
+        icon:
+          class: fas fa-exclamation-triangle has-text-warning
+
       - <<: *homework2 # jsonwriter
+        bump: true
+
       deadlines:
       - <<: *homework1 # argumentmap
 
@@ -196,7 +303,13 @@ weeks:
     - type: Lab
       date: 2019-02-08
       resources:
+      - text: Attendance Mandatory
+        link: https://usfca.instructure.com/courses/1582958/assignments/6823200
+        icon:
+          class: fas fa-exclamation-triangle has-text-warning
+
       - <<: *homework3 # wordindex
+        bump: true
 
       deadlines:
       - text: Drop Deadline
@@ -226,7 +339,13 @@ weeks:
     - type: Lab
       date: 2019-02-15
       resources:
+      - text: Attendance Mandatory
+        link: https://usfca.instructure.com/courses/1582958/assignments/6823201
+        icon:
+          class: fas fa-exclamation-triangle has-text-warning
+
       - <<: *homework4 # interface/text parsing ???
+        bump: true
 
       deadlines:
       - <<: *homework3 # wordindex
@@ -317,6 +436,11 @@ weeks:
       deadlines:
       - <<: *homework6
 
+      - <<: *csevent1
+        bump: true
+
+      - <<: *piazza1
+
 - week: 8
   days:
     - type: No Class
@@ -371,6 +495,11 @@ weeks:
       date: 2019-03-22
       resources:
       - <<: *homework7 # readwritelock
+
+      - <<: *csevent2
+        bump: true
+
+      - <<: *piazza2
 
 - week: 10
   days:
@@ -565,6 +694,11 @@ weeks:
       - text: Project Cutoff 2
         icon: *icon_warning
         type: danger
+
+      - <<: *csevent2
+        bump: true
+
+      - <<: *piazza2
 
 - text: Finals
   days:
