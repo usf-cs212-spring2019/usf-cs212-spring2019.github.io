@@ -156,9 +156,9 @@ weeks:
     - type: Lecture
       date: 2019-01-22
       resources:
-      - text: Course Introduction
-        link: https://drive.google.com/open?id=0BxYofk0iB_updW9ITzJDazVYT28
-        icon: *icon_slides
+      # - text: Course Introduction
+      #   link: https://drive.google.com/open?id=0BxYofk0iB_updW9ITzJDazVYT28
+      #   icon: *icon_slides
 
       - text: Course Syllabus
         link: /syllabus.html
