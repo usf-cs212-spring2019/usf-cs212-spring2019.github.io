@@ -155,6 +155,7 @@ weeks:
   days:
     - type: Lecture
       date: 2019-01-22
+      zoom: https://usfca.zoom.us/recording/share/yhp8gftA_Jro-ZQ_elxauAm1xHZmi-qgnQ4pvQPr0FqwIumekTziMw
       resources:
       # - text: Course Introduction
       #   link: https://drive.google.com/open?id=0BxYofk0iB_updW9ITzJDazVYT28
