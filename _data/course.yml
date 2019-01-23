@@ -28,7 +28,7 @@ lectures:
 labs:
   - label: CS 212-01 Lab 1
     items:
-      - text: TBA
+      - text: Olivia Kumar
         icon: fas fa-user
 
       - text: Fridays
@@ -43,7 +43,7 @@ labs:
 
   - label: CS 212-01 Lab 2
     items:
-      - text: TBA
+      - text: Simon Lu
         icon: fas fa-user
 
       - text: Fridays
@@ -88,7 +88,7 @@ assistants:
         icon: fas fa-map-marker-alt
         link: https://www.usfca.edu/campus-buildings-services/main-campus/harney-science
 
-      - text: Pending
+      - text: Lab 1, Office Hours, Piazza, Project Issues
         icon: fas fa-clipboard
 
   - label: Simon Lu
@@ -104,7 +104,7 @@ assistants:
         icon: fas fa-map-marker-alt
         link: https://www.usfca.edu/campus-buildings-services/main-campus/harney-science
 
-      - text: Pending
+      - text: Lab 2, Office Hours, Piazza, Homework Grading
         icon: fas fa-clipboard
 
 important_dates:
