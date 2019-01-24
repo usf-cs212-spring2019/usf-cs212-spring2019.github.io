@@ -27,6 +27,14 @@ em {
   color: inherit;
 }
 
+del,
+strike,
+.del,
+.strike
+{
+  text-decoration: line-through;
+}
+
 [class^="has-text-"] a {
   color: inherit;
 }

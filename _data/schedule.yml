@@ -197,14 +197,10 @@ weeks:
 
       - <<: *piazza1
 
-      - text: File IO
-        icon: *icon_pending
-        type: grey
+      - text: File IO and Exceptions
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Files%20and%20Exceptions
         bump: true
-
-      - text: Exceptions
-        icon: *icon_pending
-        type: grey
 
     - type: Lab
       date: 2019-01-25
@@ -222,6 +218,7 @@ weeks:
       - text: Piazza Setup
         icon: *icon_participation
         link: https://usfca.instructure.com/courses/1582958/assignments/6823166
+        type: grey strike
 
       - text: 'Guides: Basics'
         bump: true
@@ -241,6 +238,7 @@ weeks:
         icon: *icon_participation
         link: https://usfca.instructure.com/courses/1582958/assignments/6823166
         date: 2019-01-25
+        type: grey strike
 
 - week: 2
   days:
