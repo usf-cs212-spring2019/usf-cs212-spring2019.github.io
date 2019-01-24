@@ -4,4 +4,26 @@ navbar: Guides
 layout: default
 ---
 
-Pending
+
+{%- for collection in site.collections %}
+{%- unless collection.label == 'posts' %}
+
+<h3>{{ collection.title }} <a href="/guides/{{ collection.label }}/" class="has-text-grey-light" style="border-bottom: 0px;"><i class="fas fa-link"></i></a></h3>
+
+<ul>
+
+{%- for item in collection.docs %}
+{%- unless item.path contains 'index' %}
+<li>
+  <p>
+    <a href="{{ item.url }}">
+      {{ item.title }}
+    </a>
+  </p>
+</li>
+{% endunless -%}
+{% endfor -%}
+
+</ul>
+{% endunless -%}
+{% endfor -%}
