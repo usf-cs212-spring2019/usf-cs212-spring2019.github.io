@@ -7,24 +7,25 @@ permalink: /guides/:title:output_ext
 collections:
   general:
     title: General Guides
-    order: 1
+    output: true
+    permalink: /guides/:collection/:name:output_ext
+
+  eclipse:
+    title: Eclipse Guides
     output: true
     permalink: /guides/:collection/:name:output_ext
 
   homework:
     title: Homework Guides
-    order: 2
     output: true
     permalink: /guides/:collection/:name:output_ext
 
   projects:
     title: Project Guides
-    order: 3
     output: true
     permalink: /guides/:collection/:name:output_ext
 
   writeups:
     title: Project Writeups
-    order: 4
     output: true
     permalink: /guides/:collection/:name:output_ext
