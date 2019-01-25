@@ -10,8 +10,8 @@ layout: default
 <h3>{{ collection.title }} <a href="/guides/{{ collection.label }}/" class="has-text-grey-light" style="border-bottom: 0px;"><i class="fas fa-link"></i></a></h3>
 
 <ul>
-
-{%- for item in collection.docs %}
+{%- assign items = collection.docs | sort: 'key' -%}
+{%- for item in items %}
 {%- unless item.path contains 'index' %}
 <li>
   <p>
