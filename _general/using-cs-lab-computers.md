@@ -2,6 +2,7 @@
 title: Using CS Lab Computers
 navbar: Guides
 layout: default
+key: 1
 ---
 
 You must use your CS account and CS lab computers (remotely or locally) to verify homework and projects.
@@ -50,6 +51,6 @@ See the [CS Support](http://www.cs.usfca.edu/support.html#login) guide for how t
 
 ## Getting Help
 
-Your CS account is created and managed by our [CS Support](http://cs.usfca.edu/support.html) team. If you run into any issues with your account, please contact them via email at <support@cs.usfca.edu> or stop by Harney 536.
+Your CS account is created and managed by our [CS Support](https://www.cs.usfca.edu/support.html) team. If you run into any issues with your account, please contact them via email at <support@cs.usfca.edu> or stop by Harney 408.
 
 The instructor **cannot** reset your password for you, but we do have a test account you can use temporarily if you are having trouble during class.
