@@ -27,14 +27,20 @@ Once done, open a terminal window and verify the version using `java -version` a
 
 ```shell
 $ java -version
-java version "11.0.1" 2018-10-16 LTS
-Java(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)
-Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
+java 11.0.2 2019-01-15 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.2+9-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.2+9-LTS, mixed mode)
 $ javac -version
-javac 11.0.1
+javac 11.0.2
 ```
 
 Note that `$` above indicates the command prompt, and the lines below that are the output.
+
+<article class="message is-warning">
+  <div class="message-body">
+    <i class="fas fa-info-circle"></i>&nbsp;Java 11 <a href="https://www.oracle.com/technetwork/java/javase/11-relnote-issues-5012449.html#Important_Changes">removed auto-update capability</a> for Windows and MacOS systems. You will need to manually check when new versions of Java 11 are released.
+  </div>
+</article>
 
 {% include section.html level="h2" name="Install Eclipse" %}
 
