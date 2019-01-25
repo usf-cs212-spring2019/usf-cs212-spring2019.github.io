@@ -2,6 +2,7 @@
 layout: default
 navbar: Guides
 title: Java and Eclipse Setup
+key: 1
 ---
 
 This guide will walkthrough the steps necessary to install the latest versions of Java and Eclipse on your local system.
