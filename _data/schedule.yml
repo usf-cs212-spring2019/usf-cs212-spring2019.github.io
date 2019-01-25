@@ -220,10 +220,18 @@ weeks:
         link: https://usfca.instructure.com/courses/1582958/assignments/6823166
         type: grey strike
 
-      - text: 'Guides: Basics'
+      - text: 'Guides: General'
+        icon: *icon_website
+        link: '/guides/general'
         bump: true
-      - text: 'Guides: Setup'
+
+      - text: 'Guides: Eclipse'
+        icon: *icon_website
+        link: '/guides/eclipse'
+
       - text: 'Guides: Homework'
+        icon: *icon_website
+        link: '/guides/homework'
 
       - <<: *homework1 # argumentmap
         bump: true
