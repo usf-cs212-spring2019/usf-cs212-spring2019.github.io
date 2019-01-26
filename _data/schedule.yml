@@ -192,6 +192,8 @@ weeks:
 
     - type: Lecture
       date: 2019-01-24
+      zoom: https://usfca.zoom.us/recording/share/n2TA664Ywr9fktVEFVxVYXFOu-o8CrdvZ8M2H0MITZCwIumekTziMw
+      
       resources:
       - <<: *csevent1
 
