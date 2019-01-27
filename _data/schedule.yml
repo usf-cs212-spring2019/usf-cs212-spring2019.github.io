@@ -280,7 +280,7 @@ weeks:
     - type: Lecture
       date: 2019-01-31
       resources:
-      - text: Quiz: Data Structures
+      - text: 'Quiz: Data Structures'
         icon: *icon_quiz
         link: https://usfca.instructure.com/courses/1582958/quizzes/2333853
 
