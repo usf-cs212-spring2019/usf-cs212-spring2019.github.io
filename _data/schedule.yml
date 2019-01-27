@@ -193,7 +193,7 @@ weeks:
     - type: Lecture
       date: 2019-01-24
       zoom: https://usfca.zoom.us/recording/share/n2TA664Ywr9fktVEFVxVYXFOu-o8CrdvZ8M2H0MITZCwIumekTziMw
-      
+
       resources:
       - <<: *csevent1
 
@@ -255,9 +255,12 @@ weeks:
     - type: Lecture
       date: 2019-01-29
       resources:
+      - <<: *homework1
+
       - text: Data Structures
-        icon: *icon_pending
-        type: grey
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Data%20Structures
+        bump: true
 
       deadlines:
       - text: Add Deadline
