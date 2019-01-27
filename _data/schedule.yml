@@ -257,6 +257,15 @@ weeks:
       resources:
       - <<: *homework1
 
+      - text: Data Structures - Types
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upQThpbGphTXlTTEk
+        bump: true
+
+      - text: Data Structures - Framework
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_updENzRGRoRnQ0UEU
+
       - text: Data Structures
         icon: *icon_code
         link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Data%20Structures
