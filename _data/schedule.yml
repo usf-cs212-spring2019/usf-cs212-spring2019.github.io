@@ -280,6 +280,10 @@ weeks:
     - type: Lecture
       date: 2019-01-31
       resources:
+      - text: Quiz: Data Structures
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333853
+
       - text: Iteration
         icon: *icon_pending
         type: grey
@@ -320,6 +324,12 @@ weeks:
       - text: Object Oriented Programming
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - text: Data Structures
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333853
+        date: 2019-02-07
 
     - type: Lab
       date: 2019-02-08
