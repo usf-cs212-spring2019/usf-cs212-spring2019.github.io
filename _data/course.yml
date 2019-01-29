@@ -97,11 +97,14 @@ assistants:
   - label: Simon Lu
     image: /images/lu.jpg
     items:
-      - text: Pending
+      - text: Tuesdays 12:30pm &ndash; 2:30pm
         icon: fas fa-calendar-alt
 
-      - text: Pending
-        icon: fas fa-clock
+      - text: Thursdays 1:00pm &ndash; 2:00pm
+        icon: fas fa-calendar-alt
+
+      - text: Fridays 2:15pm &ndash; 3:20pm (Lab 2)
+        icon: fas fa-calendar-alt
 
       - text: Harney Science 411
         icon: fas fa-map-marker-alt
