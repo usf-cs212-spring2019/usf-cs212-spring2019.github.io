@@ -52,7 +52,7 @@ assignments:
       link: https://usfca.instructure.com/courses/1582958/assignments/6818764
 
   - homework2: &homework2
-      text: JSONWriter
+      text: PrettyJSONWriter
       icon: *icon_homework
       date: 2019-02-08
       link: https://usfca.instructure.com/courses/1582958/assignments/6818765
@@ -286,12 +286,8 @@ weeks:
         link: https://usfca.instructure.com/courses/1582958/quizzes/2333853
 
       - text: Iteration
-        icon: *icon_pending
-        type: grey
-
-      - text: Search
-        icon: *icon_pending
-        type: grey
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Data%20Structures
 
     - type: Lab
       date: 2019-02-01
