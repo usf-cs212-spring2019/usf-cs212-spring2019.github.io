@@ -5,22 +5,38 @@ title: Homework Submission
 key: 4
 ---
 
-Pending
+This guide discusses the homework submission process. This comes *after* the [Homework Setup](homework-setup.html) and [Homework Testing](homework-testing.html) processes.
 
-{% comment %}
-The Github classroom link automates the process of setting up a private repository with template code for your homework assignments, but does *NOT* handle submitting your code for grading. Instead, to submit your homework you must:
+{% include section.html level="h2" name="Submission" %}
 
-  1. Submit a link to your homework repository in Canvas before the deadline. You can do this *immediately* after creating the homework repository using Github classroom. (It is the same assignment in Canvas that had the Github classroom link.)
+To submit your homework, make sure the latest version of your code has been committed **and** pushed to Github. There are two things to verify:
 
-  2. Regularly commit and push your homework code as you develop to your repository. Remember, [you must have several commits](/guides/homework/homework-requirements.html) in your repository to receive full credit for your homework assignment.
+  1. Make sure you see your latest commit when visiting the homework repository on the Github website.
 
-  3. Stop committing your homework code in the `master` branch before the homework deadline to avoid any [late penalties]({{ "/syllabus.html#homework" | relative_url }}). You may continue developing your code in another branch if you want to try and pass additional tests. If you manage to fix enough issues that you want to submit your latest changes and accept the late penalty, go ahead and merge those changes back into the `master` repository.
+  2. Make sure you are passing all of the tests when running the `homework` script on the lab computers. (See [Homework Testing](homework-testing.html) for details.)
 
-When done, double-check your submission by running the `homework` script on the lab computers. See the [Homework Testing](/guides/homework/homework-testing.html) guide for details.
+We use the `homework` script on the lab computers for grading, so if that is passing the tests then it will pass the tests when we grade it as well.
 
-<article class="message is-danger">
-  <div class="message-body">
-    <i class="fas fa-exclamation-triangle"></i>&nbsp;You must follow the submission procedure to avoid point deductions to your code. If you forget to submit a link to your homework repository, you may lose points even if your repository code is passing all of the tests before the deadline!  
-  </div>
-</article>
-{% endcomment %}
+{% include section.html level="h2" name="Late Policy" %}
+
+If there are any modifications to the `master` branch after the homework deadline, then an *automatic late deduction* will be applied to the homework grade as follows:
+
+  - &ndash;10% deduction for changes 15 minutes to 24 hours after the deadline
+
+  - &ndash;20% deduction for changes submitted 24 hours to 48 hours after the deadline
+
+These penalties will be automatically applied regardless of whether the tests were passing before the deadline!
+
+{% include section.html level="h3" name="Avoiding the Late Penalty" %}
+
+Want to keep working on your homework after the deadline? No problem; just [create a branch](/guides/general/using-branches.html) of your homework first! This avoids making any modifications to your `master` branch, allowing you to avoid the automatic late penalty. If you are able to get additional tests passing, you can merge those changes back into your `master` branch .
+
+See the [Using Branches](/guides/general/using-branches.html) guide for details on this process.
+
+{% include section.html level="h3" name="Contesting the Late Penalty" %}
+
+Mistakes still happen. You can contest the automatic late penalty if you accidentally change the timestamp of your `master` branch, but were fully passing the tests *before* the deadline.
+
+This is only possible if you have a commit in your repository before the deadline that was passing the tests. We will be able to check out that exact commit and verify the test results.
+
+You will still receive a 5% submission penalty for your first offense, and a 10% penalty for each  additional offense.
