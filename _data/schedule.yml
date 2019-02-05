@@ -280,6 +280,7 @@ weeks:
 
     - type: Lecture
       date: 2019-01-31
+      zoom: https://usfca.zoom.us/recording/share/At4MRYBB5dYJ8skzzFueh2KAXXwWEDHZtwJYxQgzw82wIumekTziMw
       resources:
       - text: 'Quiz: Data Structures'
         icon: *icon_quiz
@@ -308,19 +309,23 @@ weeks:
     - type: Lecture
       date: 2019-02-05
       resources:
-      - text: Object Oriented Programming
-        icon: *icon_pending
-        type: grey
+      - text: OOP Terminology
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upZmY5OFpfZXl3ZVU
 
-      - <<: *project1
-        bump: true
+      - text: OOP Demos
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/OOP%20Principles
 
     - type: Lecture
       date: 2019-02-07
       resources:
-      - text: Object Oriented Programming
-        icon: *icon_pending
-        type: grey
+      - text: OOP Demos
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/OOP%20Principles
+
+      - <<: *project1
+        bump: true
 
       deadlines:
       - text: Data Structures
