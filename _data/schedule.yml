@@ -321,12 +321,33 @@ weeks:
     - type: Lecture
       date: 2019-02-07
       resources:
+      - <<: *project1
+
       - text: OOP Demos
         icon: *icon_code
         link: https://github.com/usf-cs212-spring2019/lectures/tree/master/OOP%20Principles
-
-      - <<: *project1
         bump: true
+
+      - text: 'Quiz: OOP Instances'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333859
+        date: 2019-02-14
+        bump: true
+
+      - text: 'Quiz: OOP Members'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333855
+        date: 2019-02-14
+
+      - text: 'Quiz: OOP Mutability 1'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333870
+        date: 2019-02-14
+
+      - text: 'Quiz: OOP Mutability 2'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333858
+        date: 2019-02-14
 
       deadlines:
       - text: Data Structures
@@ -369,6 +390,27 @@ weeks:
       - text: Inheritance
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - text: OOP Instances
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333859
+        date: 2019-02-14
+
+      - text: 'OOP Members'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333855
+        date: 2019-02-14
+
+      - text: 'OOP Mutability 1'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333870
+        date: 2019-02-14
+
+      - text: 'OOP Mutability 2'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333858
+        date: 2019-02-14
 
     - type: Lab
       date: 2019-02-15
