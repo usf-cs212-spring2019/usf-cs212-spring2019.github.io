@@ -3,6 +3,7 @@ title: Project 1 Inverted Index
 navbar: Guides
 layout: guides
 key: 1.1
+bump: true
 
 tags:
   - text: 'New'

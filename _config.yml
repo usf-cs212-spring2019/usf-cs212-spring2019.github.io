@@ -24,8 +24,3 @@ collections:
     title: Project Guides
     output: true
     permalink: /guides/:collection/:name:output_ext
-
-  writeups:
-    title: Project Writeups
-    output: true
-    permalink: /guides/:collection/:name:output_ext

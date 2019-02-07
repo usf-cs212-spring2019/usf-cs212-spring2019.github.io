@@ -55,6 +55,11 @@ pre.highlight {
   margin-bottom: 1em;
 }
 
+.bump,
+.content li.bump {
+  margin-top: 1em;
+}
+
 @media print {
   .hidden-print {
     display: none !important;
