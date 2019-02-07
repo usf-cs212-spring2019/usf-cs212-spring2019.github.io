@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 navbar: Guides
 title: Homework Requirements
 key: 3

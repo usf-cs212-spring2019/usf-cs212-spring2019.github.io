@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 navbar: Guides
 title: Java and Eclipse Setup
 key: 1

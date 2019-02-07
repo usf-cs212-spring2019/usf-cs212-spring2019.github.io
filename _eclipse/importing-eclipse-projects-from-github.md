@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 navbar: Guides
 title: Importing Eclipse Projects from Github
 key: 2

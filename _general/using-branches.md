@@ -1,7 +1,7 @@
 ---
 title: Using Branches
 navbar: Guides
-layout: default
+layout: guides
 key: 4
 ---
 

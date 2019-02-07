@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 navbar: Guides
 title: Configuring SSH Keys
 key: 2

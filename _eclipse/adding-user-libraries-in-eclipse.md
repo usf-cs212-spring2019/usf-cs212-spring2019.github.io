@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 navbar: Guides
 title: Adding User Libraries in Eclipse
 key: 3
