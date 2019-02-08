@@ -321,6 +321,7 @@ weeks:
 
     - type: Lecture
       date: 2019-02-07
+      zoom: https://usfca.zoom.us/recording/share/w49i0a0OU03THBb-6XL39fF42hHGi__sUt37BsbpSj2wIumekTziMw
       resources:
       - <<: *project1
 
