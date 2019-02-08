@@ -731,6 +731,11 @@ weeks:
         icon: *icon_exam
         type: danger
 
+      deadlines:
+      - <<: *project4
+        text: Project 4 Web Crawler
+        type: primary
+
     - type: Lecture
       date: 2019-05-02
       resources:
