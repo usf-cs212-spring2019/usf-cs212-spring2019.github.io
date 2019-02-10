@@ -81,11 +81,19 @@ Your `main` method must be placed in a class named `Driver`. The `Driver` class 
 
   - `-locations filepath` where `-locations` is an *optional* flag that indicates the next argument is the path to use to output all of the locations and their word count. If the `filepath` argument is not provided, use `locations.json` as the default output filename. If the `-locations` flag is not provided, do not produce an output file of locations.
 
-The command-line flag/value pairs may be provided in any order.
+The command-line flag/value pairs may be provided in any order. Do not convert paths to absolute form when processing command-line input!
 
 {% include section.html level="h2" name="Output" %}
 
-The output of your program should be a file that contains the contents of your inverted index in alphabetically sorted order as a nested JSON object using a "pretty" format using tab characters for indentation. For example:
+All output will be produced in "pretty" JSON format using tab characters for indentation. According to the [JSON standard](http://json.org/), numbers like integers should never be quoted. Any string or object key, however, should always be surrounded by `"` quotes. Objects (similar to maps) should use curly braces `{` and `}` and arrays should use square brackets `[` and `]`. Make sure there are no trailing commas after the last element.
+
+The paths should be output in the form they were originally provided. The tests use normalized relative paths, so the output should also be normalized relative paths. As long as command-line parameters are not converted to absolute form, this should be the default output provided by the path object.
+
+See below for more details on the index versus locations output files.
+
+{% include section.html level="h3" name="Index Output" %}
+
+The contents of your inverted index should be output in alphabetically sorted order as a nested JSON object using a "pretty" format. For example:
 
 ```
 {
@@ -106,15 +114,61 @@ The output of your program should be a file that contains the contents of your i
 }
 ```
 
-According to the [JSON standard](http://json.org/), numbers like integers should never be quoted. Any string or object key, however, should always be surrounded by `"` quotes. Objects (similar to maps) should use curly braces `{` and `}` and arrays should use square brackets `[` and `]`.
-
-Each path should be a normalized relative path. Make sure there are no trailing commas after the last element. See the JSON files in the project tests `expected` directory for more examples.
+See the JSON files in the project tests [`expected/index-test`]({{ site.data.course.github }}/project-tests/tree/master/expected/index-text) directory for more examples.
 
 <article class="message is-info">
 	<div class="message-body">
 		<i class="fas fa-info-circle"></i>&nbsp;The project tests account for different path separators (forward slash <code>/</code> for Linux/Mac systems, and backward slash <code>\</code> for Windows systems). Your code does <strong>not</strong> have to convert between the two!
 	</div>
 </article>
+
+{% include section.html level="h3" name="Location Output" %}
+
+The locations and their word count should be output as a JSON object with the path of the file as the key and the word count (after cleaning, parsing, and stemming) as the value. Here is the expected output for the word count of all the text files associated with this project:
+
+```javascript
+{
+	"text/guten/1400-0.txt": 187368,
+	"text/guten/pg1228.txt": 157344,
+	"text/guten/pg1322.txt": 124370,
+	"text/guten/pg1661.txt": 107396,
+	"text/guten/pg22577.txt": 63630,
+	"text/guten/pg37134.txt": 16696,
+	"text/rfcs/rfc475.txt": 3228,
+	"text/rfcs/rfc5646.txt": 27075,
+	"text/rfcs/rfc6797.txt": 12925,
+	"text/rfcs/rfc6805.txt": 9785,
+	"text/rfcs/rfc6838.txt": 9367,
+	"text/rfcs/rfc7231.txt": 28811,
+	"text/simple/.txt/hidden.txt": 1,
+	"text/simple/a/b/c/d/subdir.txt": 1,
+	"text/simple/animals.text": 11,
+	"text/simple/animals_copy.text": 11,
+	"text/simple/animals_double.text": 22,
+	"text/simple/capital_extension.TXT": 1,
+	"text/simple/capitals.txt": 4,
+	"text/simple/digits.txt": 2,
+	"text/simple/dir.txt/findme.Txt": 1,
+	"text/simple/hello.txt": 6,
+	"text/simple/position.teXt": 20,
+	"text/simple/symbols.txt": 10,
+	"text/simple/words.tExT": 24
+}
+```
+
+You can also find this output in the [`project-tests/expected/locations.json`]({{ site.data.course.github }}/project-tests/blob/master/expected/locations.json) file in the `project-tests` repository.
+
+<p><article class="message is-info">
+  <div class="message-body">
+    <i class="fas fa-info-circle"></i>&nbsp;This output is provided to help you debug your stemming. If your word count for each file does not match the expected output, then your index output will also mismatch.
+  </div>
+</article></p>
+
+<p><article class="message is-success">
+  <div class="message-body">
+    <i class="fas fa-magic"></i>&nbsp;This output should look similar to that of one of your homeworks... you might be able to use it directly depending how you setup your project code!
+  </div>
+</article></p>
 
 {% include section.html level="h2" name="Examples" %}
 
