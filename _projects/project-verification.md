@@ -42,11 +42,11 @@ To request project verification, [create an issue](https://help.github.com/artic
 
 Several issue templates have already been provided for you. Select the "Project Verification" template to get started.
 
-  1. Change the issue title to "Project `[VERSION]` Verification" where `[VERSION]` is the release you want verified. For example, "Project v1.0 Verification" for release v1.0 of Project 1.
+  1. Change the issue title to "Project `[VERSION]` Verification" where `[VERSION]` is the release you want verified. For example, "Project v1.0.0 Verification" for release v1.0.0 of Project 1.
 
   2. Replace `[FULLNAME]` in the issue body with your full name. For example, "Sophie Engle".
 
-  3. Replace `[RELEASE]` in the issue body with the release. For example, "v1.0".
+  3. Replace `[RELEASE]` in the issue body with the release. For example, "v1.0.0".
 
   4. **If you need your functionality grade updated**, make sure to check the box next to "I need my functionality grade updated on Canvas" in the issue body. To do this, change the `[ ]` text to `[x]` instead. Your grade will not be updated unless this is selected!
 

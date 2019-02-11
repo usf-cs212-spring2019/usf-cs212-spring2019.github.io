@@ -74,10 +74,6 @@ Then, the `index-text-simple-hello.json` will (hopefully) show up in the `out` s
 
 {% include section.html level="h2" name="Testing Remotely" %}
 
-Pending
-
-{% comment %}
-
 You must test your code remotely before you can earn credit for the functionality of your project and before you can sign up for a code review appointment.
 
 This is a two part process: first you must create a release, and second you must run the project script on the CS Lab computers. This process familiarizes you with [**versioning**](https://en.wikipedia.org/wiki/Software_versioning) your code. At this stage, your code will be considered [pre-release](https://en.wikipedia.org/wiki/Software_versioning#Pre-release_versions) versions until you pass the design requirements in code review.
@@ -102,9 +98,9 @@ This is a two part process: first you must create a release, and second you must
 
     You will unselect this checkbox for the final release of the project that passes the design requirements in code review.
 
-4. Click the "Publish release" button. You can leave the title and description blank. You can also leave the binaries blank (this is where we would put executables or our own bundled jar files for production-ready releases). You can see a [sample release](https://github.com/usf-cs212-fall2018/template-project/releases/tag/v1.0.0) on the template repository.
+4. Click the "Publish release" button. You can leave the title and description blank. You can also leave the binaries blank (this is where we would put executables or our own bundled jar files for production-ready releases). You can see a [sample release](https://github.com/usf-cs212-spring2019/template-project/releases/tag/v1.0.0) on the template repository.
 
-5. Now that you have a release of your code, you can run the `project` script on the [CS lab computers]({% post_url 2018-08-18-using-cs-lab-computers %}) to test your project code remotely using the command:
+5. Now that you have a release of your code, you can run the `project` script on the [CS lab computers](/guides/general/using-cs-lab-computers.html) to test your project code remotely using the command:
 
     ```
     /home/public/cs212/project GithubUsername v#.#.#
@@ -112,10 +108,10 @@ This is a two part process: first you must create a release, and second you must
 
     Replace `GithubUsername` with your Github username (not your USF/CS username), and `v#.#.#` with your release number. The script will output which tests you passed or failed. If all of the tests passed, you are ready for project verification and code review! If not, you can view a detailed report of what went wrong in your home directory.
 
-    For example, running the command `project sjengle v1.0.0` will fetch the `v1.0.0` release from the `project-sjengle` repository, and run the `Project1Test.java` test suite. It will generate a report file located at `~/cs212-sjengle-project-v1.0.0.txt` with the test results.
+    For example, running the command `project sjengle v1.0.0` will fetch the `v1.0.0` release from the `project-sjengle` repository, and run the `Project1Test.java` test suite.
 
 
-If everything passes and you want credit for passing the functionality, follow the [project verification]({% post_url 2018-08-26-project-functionality %}) steps to notify the teacher assistant.
+If everything passes and you want credit for passing the functionality, follow the [project verification](project-verification.html) steps to notify the teacher assistant.
 
 {% include section.html level="h2" name="Video Walkthrough" %}
 
@@ -128,4 +124,3 @@ If everything passes and you want credit for passing the functionality, follow t
 </div>
 
 <p>Please note this video was recorded for a previous semester. The Github organization and teacher assistants have changed since then.</p>
-{% endcomment %}
