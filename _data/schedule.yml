@@ -386,12 +386,30 @@ weeks:
         icon: *icon_pending
         type: grey
 
+      - text: 'Quiz: Final Keyword'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333890
+        bump: true
+
+      - text: 'Quiz: Collections Revisited'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333889
+
     - type: Lecture
       date: 2019-02-14
       resources:
       - text: Inheritance
         icon: *icon_pending
         type: grey
+
+      - text: 'Quiz: Casting'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333893
+        bump: true
+
+      - text: 'Quiz: Terminology'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333865
 
       deadlines:
       - text: OOP Instances
@@ -437,12 +455,34 @@ weeks:
         icon: *icon_pending
         type: grey
 
+      deadlines:
+      - text: 'Final Keyword'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333890
+        date: 2019-02-19
+
+      - text: 'Collections Revisited'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333889
+        date: 2019-02-19
+
     - type: Lecture
       date: 2019-02-21
       resources:
       - text: Streams
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - text: 'Casting'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333893
+        date: 2019-02-21
+
+      - text: 'Terminology'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333865
+        date: 2019-02-21
 
     - type: Lab
       date: 2019-02-22
