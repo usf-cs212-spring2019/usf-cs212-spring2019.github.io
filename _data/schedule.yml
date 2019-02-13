@@ -383,8 +383,12 @@ weeks:
       date: 2019-02-12
       resources:
       - text: Inheritance
-        icon: *icon_pending
-        type: grey
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Inheritance
+
+      - text: Inheritance Slides (See README)
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Inheritance
 
       - text: 'Quiz: Final Keyword'
         icon: *icon_quiz
@@ -399,8 +403,8 @@ weeks:
       date: 2019-02-14
       resources:
       - text: Inheritance
-        icon: *icon_pending
-        type: grey
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Inheritance
 
       - text: 'Quiz: Casting'
         icon: *icon_quiz
