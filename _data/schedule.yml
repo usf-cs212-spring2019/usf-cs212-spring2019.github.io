@@ -70,7 +70,7 @@ assignments:
       link: https://usfca.instructure.com/courses/1582958/assignments/6818767
 
   - homework5: &homework5
-      text: Homework TBA
+      text: TextFileFinder
       icon: *icon_homework
       date: 2019-03-01
       link: https://usfca.instructure.com/courses/1582958/assignments/6818768
