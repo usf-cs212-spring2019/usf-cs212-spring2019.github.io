@@ -457,9 +457,13 @@ weeks:
     - type: Lecture
       date: 2019-02-19
       resources:
-      - text: Lambda Functions
-        icon: *icon_pending
-        type: grey
+      - text: Java Features
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=19sbAraldveqQ5jQGn9zGEr1ANtEkvW1S
+
+      - text: Lambda Expressions
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=1PF9o9JhsDhJR3Zna3rGli2aJcX-oa504
 
       deadlines:
       - text: 'Final Keyword'
@@ -475,9 +479,13 @@ weeks:
     - type: Lecture
       date: 2019-02-21
       resources:
-      - text: Streams
-        icon: *icon_pending
-        type: grey
+      - text: Stream Introduction
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=1HQlACG3kzarpDsQ8Gzq8XVB8cSnp2_kO
+
+      - text: Stream Pipelines
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=1A4f-lNTZkFUhgJ3EaoI0SDPrAIkpK4gP
 
       deadlines:
       - text: 'Casting'
