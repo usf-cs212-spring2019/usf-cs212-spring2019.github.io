@@ -465,6 +465,10 @@ weeks:
         icon: *icon_slides
         link: https://drive.google.com/open?id=1PF9o9JhsDhJR3Zna3rGli2aJcX-oa504
 
+      - text: Lambda Expressions
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Lambda%20Expressions
+
       deadlines:
       - text: 'Final Keyword'
         icon: *icon_quiz
