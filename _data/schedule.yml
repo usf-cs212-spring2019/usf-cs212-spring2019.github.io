@@ -491,6 +491,10 @@ weeks:
         icon: *icon_slides
         link: https://drive.google.com/open?id=1A4f-lNTZkFUhgJ3EaoI0SDPrAIkpK4gP
 
+      - text: Stream Package
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Stream%20Package
+
       deadlines:
       - text: 'Casting'
         icon: *icon_quiz
