@@ -483,9 +483,15 @@ weeks:
     - type: Lecture
       date: 2019-02-21
       resources:
+      - text: 'Quiz: Lambda Expressions'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333885
+        date: 2019-02-28
+
       - text: Stream Introduction
         icon: *icon_slides
         link: https://drive.google.com/open?id=1HQlACG3kzarpDsQ8Gzq8XVB8cSnp2_kO
+        bump: true
 
       - text: Stream Pipelines
         icon: *icon_slides
@@ -541,6 +547,12 @@ weeks:
       - text: Logging
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - text: 'Lambda Expressions'
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333885
+        date: 2019-02-28
 
     - type: Lab
       date: 2019-03-01
