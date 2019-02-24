@@ -547,7 +547,7 @@ weeks:
         link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Unit%20Testing
         bump: true
 
-      - text: Quiz: Unit Testing
+      - text: "Quiz: Unit Testing"
         icon: *icon_quiz
         link: https://usfca.instructure.com/courses/1582958/quizzes/2333871
 
