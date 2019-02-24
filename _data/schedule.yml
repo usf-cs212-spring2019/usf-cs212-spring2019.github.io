@@ -587,7 +587,9 @@ weeks:
     - type: Lab
       date: 2019-03-01
       resources:
-      - <<: *homework6 # finding/testing ???
+      - <<: *project1
+
+      - <<: *project2
 
       deadlines:
       - <<: *homework5
@@ -616,8 +618,6 @@ weeks:
       - <<: *project2
 
       deadlines:
-      - <<: *homework6
-
       - <<: *csevent1
         bump: true
 
