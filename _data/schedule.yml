@@ -562,7 +562,7 @@ weeks:
       resources:
       - text: Exam 1 Review
         icon: *icon_pending
-        type: grey
+        link: /guides/exam-1.html
 
       - text: Assertions
         icon: *icon_pending

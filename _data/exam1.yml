@@ -1,0 +1,139 @@
+- week: 1
+  topics:
+    - name: 'Project Euler'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Project%20Euler'
+      drop: true
+    - name: 'File IO and Exceptions'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Files%20and%20Exceptions'
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/yhp8gftA_Jro-ZQ_elxauAm1xHZmi-qgnQ4pvQPr0FqwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/n2TA664Ywr9fktVEFVxVYXFOu-o8CrdvZ8M2H0MITZCwIumekTziMw'
+  homework:
+    - name: 'ArgumentMap'
+      link: 'https://github.com/usf-cs212-spring2019/template-argumentmap'
+- week: 2
+  topics:
+    - name: 'Data Structures'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Data%20Structures'
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/Z0GsMoTsYCv-kkfIcbdegCwxL6eugqgtYkXkV-Z7h_iwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/At4MRYBB5dYJ8skzzFueh2KAXXwWEDHZtwJYxQgzw82wIumekTziMw'
+  slides:
+    - name: 'Types'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upQThpbGphTXlTTEk'
+    - name: 'Framework'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_updENzRGRoRnQ0UEU'
+  quizzes:
+    - name: 'Data Structures'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2335665'
+  homework:
+    - name: 'PrettyJSONWriter'
+      link: 'https://github.com/usf-cs212-spring2019/template-prettyjsonwriter'
+- week: 3
+  topics:
+    - name: 'Object Oriented Programming'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/OOP%20Principles'
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/s0xzKSNYMG2a5uJxFq6l51nkTGBu-hBqkoh2R_pMPJSwIumekTziMw'
+      thur: 'https://usfca.zoom.us/recording/share/w49i0a0OU03THBb-6XL39fF42hHGi__sUt37BsbpSj2wIumekTziMw'
+  slides:
+    - name: 'OOP Terminology'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upZmY5OFpfZXl3ZVU'
+  quizzes:
+    - name: 'Instances'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2335661'
+    - name: 'Members'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2335664'
+    - name: 'Mutability Part 1'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2335670'
+    - name: 'Mutability Part 2'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2335666'
+  homework:
+    - name: 'TextFileStemmer'
+      link: 'https://github.com/usf-cs212-spring2019/template-textfilestemmer'
+- week: 4
+  topics:
+    - name: 'Inheritance'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Inheritance'
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/BEm_bVF8AmcQXHrXoJe0Sqx0D_5s8yWS1eXEmBINXvywIumekTziMw?startTime=1550018249000'
+      thur: 'https://usfca.zoom.us/recording/share/jY4bWnHSnQHlFAsQA-M_ak437-vM6In5ImG3rzNbomawIumekTziMw'
+  slides:
+    - name: 'Introduction'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upbFlMM2E0bWhwVnc'
+    - name: 'Object Revisited'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upZ0ZnYm5iT2hjOXc'
+    - name: 'Final Keyword'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upTXU2b1BQcWRFcjQ'
+    - name: 'Abstract Classes and Interfaces'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upM0Z4MVZLbXdWb3M'
+    - name: 'Collections Revisited'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upaFM2bUkwSnVoZ1k'
+    - name: 'Casting'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upempmQWFJd0xFWjg'
+    - name: 'Nested Classes'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upWFpPd25oYjNjd00'
+    - name: 'Generics'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upS3M1Z0Qxd0NfUWs'
+  quizzes:
+    - name: 'Final Keyword'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2335662'
+    - name: 'Collections Revisited'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2335669'
+    - name: 'Casting'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2335667'
+    - name: 'Terminology'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2335668'
+  homework:
+    - name: 'WordIndex'
+      link: 'https://github.com/usf-cs212-spring2019/template-wordindex'
+- week: 5
+  topics:
+    - name: 'Lambda Expressions'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Lambda%20Expressions'
+    - name: 'Streams'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Stream%20Package'
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/gwWPChRlFXhOXShxdjY9t18zIjJdAJ7Tp1uPgy2b4sSwIumekTziMw?startTime=1550622999000'
+      thur: 'https://usfca.zoom.us/recording/share/lHsYpGPRObm-4RD9WbT1Ok9FFlMmFhObZn2fb1tQ13ewIumekTziMw'
+  slides:
+    - name: 'Java Versions'
+      link: 'https://drive.google.com/open?id=19sbAraldveqQ5jQGn9zGEr1ANtEkvW1S'
+      drop: true
+    - name: 'Lambda Expressions'
+      link: 'https://drive.google.com/open?id=1PF9o9JhsDhJR3Zna3rGli2aJcX-oa504'
+    - name: 'Streams - Introduction'
+      link: 'https://drive.google.com/open?id=1HQlACG3kzarpDsQ8Gzq8XVB8cSnp2_kO'
+    - name: 'Streams - Pipelines'
+      link: 'https://drive.google.com/open?id=1A4f-lNTZkFUhgJ3EaoI0SDPrAIkpK4gP'
+  quizzes:
+    - name: 'Lambda Expressions'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2335663'
+  homework:
+    - name: 'TextFileFinder'
+      link: 'https://github.com/usf-cs212-spring2019/template-textfilefinder'
+- week: 6
+  topics:
+    - name: 'Unit Testing'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Unit%20Testing'
+  slides:
+    - name: 'Motivation'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upN09pQTBXbmxveGM'
+    - name: 'Approaches'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upQnNKQnRBU1dlbk0'
+    - name: 'Unit Testing'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upNlZlU1FVTzYtWnc'
+    - name: 'Assertions'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upbWRtbVd6bVVRZ0k'
+    - name: 'Logging'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upZnc3LTYyOHlsbmM'
+  quizzes:
+    - name: 'Unit Testing'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2335660'
+    - name: 'Debugging'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333886'
