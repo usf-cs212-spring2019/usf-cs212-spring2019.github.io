@@ -115,6 +115,7 @@ assignments:
       text: Project 2
       icon: *icon_project
       date: 2019-03-19
+      link: /guides/projects/project-2.html
 
   - project3: &project3
       text: Project 3
@@ -559,9 +560,14 @@ weeks:
     - type: Lecture
       date: 2019-02-28
       resources:
+      - text: Exam 1 Review
+        icon: *icon_pending
+        type: grey
+
       - text: Assertions
         icon: *icon_pending
         type: grey
+        bump: true
 
       - text: Logging
         icon: *icon_pending
