@@ -483,6 +483,7 @@ weeks:
 
     - type: Lecture
       date: 2019-02-21
+      zoom: https://usfca.zoom.us/recording/share/lHsYpGPRObm-4RD9WbT1Ok9FFlMmFhObZn2fb1tQ13ewIumekTziMw
       resources:
       - text: 'Quiz: Lambda Expressions'
         icon: *icon_quiz
@@ -526,12 +527,29 @@ weeks:
     - type: Lecture
       date: 2019-02-26
       resources:
-      - text: Software Testing
-        icon: *icon_pending
-        type: grey
-
       - <<: *project2
+
+      - text: Testing Motivation
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upN09pQTBXbmxveGM
         bump: true
+
+      - text: Testing Basics
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upQnNKQnRBU1dlbk0
+
+      - text: Unit Testing
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upNlZlU1FVTzYtWnc
+
+      - text: Unit Testing
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Unit%20Testing
+        bump: true
+
+      - text: Quiz: Unit Testing
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333871
 
       deadlines:
       - <<: *project1
