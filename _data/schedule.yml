@@ -593,7 +593,12 @@ weeks:
       resources:
       - <<: *project1
 
+      - text: Project 1 Extra Credit
+        icon: *icon_project
+        link: https://usfca.instructure.com/courses/1582958/assignments/6833654
+
       - <<: *project2
+        bump: true
 
       deadlines:
       - <<: *homework5
@@ -619,7 +624,12 @@ weeks:
       resources:
       - <<: *project1
 
+      - text: Project 1 Extra Credit
+        icon: *icon_project
+        link: https://usfca.instructure.com/courses/1582958/assignments/6833654
+
       - <<: *project2
+        bump: true
 
       deadlines:
       - <<: *csevent1
