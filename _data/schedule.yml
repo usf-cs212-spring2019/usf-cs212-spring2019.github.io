@@ -527,8 +527,10 @@ weeks:
   days:
     - type: Lecture
       date: 2019-02-26
+      zoom: https://usfca.zoom.us/recording/share/Glcj2e-P6AOn77p65EcIId-lyCFtJmqxXwkmSQ_mgmiwIumekTziMw
       resources:
       - <<: *project2
+        text: '<strike>Project 2</strike>'
 
       - text: Testing Motivation
         icon: *icon_slides
@@ -560,9 +562,20 @@ weeks:
     - type: Lecture
       date: 2019-02-28
       resources:
+      - <<: *project2
+
       - text: Exam 1 Review
-        icon: *icon_pending
+        icon: *icon_website
         link: /guides/exam-1.html
+
+      - text: Unit Testing
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Unit%20Testing
+        bump: true
+
+      - text: "Quiz: Unit Testing"
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333871
 
       deadlines:
       - text: 'Lambda Expressions'

@@ -121,6 +121,9 @@
   topics:
     - name: 'Unit Testing'
       link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Unit%20Testing'
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/Glcj2e-P6AOn77p65EcIId-lyCFtJmqxXwkmSQ_mgmiwIumekTziMw'
   slides:
     - name: 'Motivation'
       link: 'https://drive.google.com/open?id=0BxYofk0iB_upN09pQTBXbmxveGM'
