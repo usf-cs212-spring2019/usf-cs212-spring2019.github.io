@@ -564,15 +564,6 @@ weeks:
         icon: *icon_pending
         link: /guides/exam-1.html
 
-      - text: Assertions
-        icon: *icon_pending
-        type: grey
-        bump: true
-
-      - text: Logging
-        icon: *icon_pending
-        type: grey
-
       deadlines:
       - text: 'Lambda Expressions'
         icon: *icon_quiz
@@ -654,7 +645,11 @@ weeks:
     - type: Lecture
       date: 2019-03-19
       resources:
-      - text: Multithreading
+      - text: Assertions
+        icon: *icon_pending
+        type: grey
+
+      - text: Logging
         icon: *icon_pending
         type: grey
 
@@ -712,7 +707,7 @@ weeks:
     - type: Lecture
       date: 2019-04-02
       resources:
-      - text: Regular Expressions
+      - text: Multithreading
         icon: *icon_pending
         type: grey
 

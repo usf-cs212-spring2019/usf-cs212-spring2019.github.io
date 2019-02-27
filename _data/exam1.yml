@@ -128,12 +128,6 @@
       link: 'https://drive.google.com/open?id=0BxYofk0iB_upQnNKQnRBU1dlbk0'
     - name: 'Unit Testing'
       link: 'https://drive.google.com/open?id=0BxYofk0iB_upNlZlU1FVTzYtWnc'
-    - name: 'Assertions'
-      link: 'https://drive.google.com/open?id=0BxYofk0iB_upbWRtbVd6bVVRZ0k'
-    - name: 'Logging'
-      link: 'https://drive.google.com/open?id=0BxYofk0iB_upZnc3LTYyOHlsbmM'
   quizzes:
     - name: 'Unit Testing'
       link: 'https://usfca.instructure.com/courses/1582958/quizzes/2335660'
-    - name: 'Debugging'
-      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333886'

@@ -28,7 +28,7 @@ The exam will be conducted on Canvas **on the lab computers** and NOT on your la
 
   - JUnit 5 Documentation, including the [JUnit 5 API](https://junit.org/junit5/docs/current/api/) and the [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/).
 
-  - Log4j2 Documentation, including the [Log4j2 API](https://logging.apache.org/log4j/2.x/log4j-api/apidocs/index.html) and [Log4j2 Core API](https://logging.apache.org/log4j/2.x/log4j-core/apidocs/index.html), and the [Log4j2 Manual](https://logging.apache.org/log4j/2.x/manual/).
+  - ~~Log4j2 Documentation, including the [Log4j2 API](https://logging.apache.org/log4j/2.x/log4j-api/apidocs/index.html) and [Log4j2 Core API](https://logging.apache.org/log4j/2.x/log4j-core/apidocs/index.html), and the [Log4j2 Manual](https://logging.apache.org/log4j/2.x/manual/).~~
 
 The exam is otherwise <span class="fa-stack fa-fw"><i class="far fa-book-open fa-stack-1x"></i><i class="far fa-ban fa-stack-2x has-text-danger"></i></span> **closed-book closed-note**. You may not reference any other websites other than Canvas and the approved websites above, e.g. you may not look at the class website, Github, StackOverflow, or Google. You may not open any other program other than the the browser, e.g. you may not open Eclipse or run Java. You may not reference your cell phone or tablet during the exam (even if you take a bathroom break). You may not look at the monitors of your fellow classmates.
 
@@ -198,9 +198,9 @@ The following are some example topics that you may want to make sure you underst
 
 - You should understand how to interpret JUnit test classes, and create your own JUnit tests. This includes understanding the `@Test`, `@Nested`, `@BeforeEach`, `@AfterEach`, `@ParameterizedTest`, and `@TestFactory` annotations and the methods in the `org.junit.jupiter.api.Assertions` package.
 
-- You should understand how to use assertions in Java using the `assert` keyword, and where it is (or is not) appropriate to use.
+- ~~You should understand how to use assertions in Java using the `assert` keyword, and where it is (or is not) appropriate to use.~~
 
-- You should understand how to configure and use **Log4j2** for logging and debugging. If given a configuration file, you should be able to determine where log messages will go (file or console), which level log messages will be output (all, info, debug, etc.), and in what format.
+- ~~You should understand how to configure and use **Log4j2** for logging and debugging. If given a configuration file, you should be able to determine where log messages will go (file or console), which level log messages will be output (all, info, debug, etc.), and in what format.~~
 
 
 ## SDS Accommodations
@@ -215,7 +215,7 @@ I must receive a notification for accommodation from [SDS](https://myusf.usfca.e
 
 For exams proctored by SDS, Canvas will be configured to automatically allow you to (1) begin the exam at your scheduled appointment time and (2) give you the additional time stipulated by your SDS alternative testing contract.
 
-You may take the exam on your own laptop or on a computer provided by SDS, but will be expected to use the Lockdown Browser. It will be configured to automatically allow you access to the allowed Java, JUnit, and Log4j2 websites. If necessary, you can bring your own piece of scratch paper and turn it in directly to the professor when you are done.
+You may take the exam on your own laptop or on a computer provided by SDS, but will be expected to use the Lockdown Browser. It will be configured to automatically allow you access to the allowed Java, JUnit, and ~~Log4j2~~ websites. If necessary, you can bring your own piece of scratch paper and turn it in directly to the professor when you are done.
 
 I will be actively monitoring email for questions from your proctor, but there might be up to a 20 minute delay if your appointment happens when I am in class or in code reviews.
 
