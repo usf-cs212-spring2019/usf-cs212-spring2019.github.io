@@ -50,7 +50,7 @@ You may ask the instructor for clarification on a <i class="far fa-question-circ
 
 ## Exam Retake
 
-You will have an opportunity to retake the entire exam during the next class period. The retake format is the same as before, except that the Lockdown Browser will not be used on the retake. However, you are expected to adhere to the same rules (e.g. only access allowed websites).
+You will have an opportunity to retake the entire exam during the next class period. The retake format is the same as before, ~~except that the Lockdown Browser will not be used on the retake~~. However, you are expected to adhere to the same rules (e.g. only access allowed websites).
 
 In addition to the allowed websites, you can also consult the instructor for hints if you do not know how to fix an answer. The instructor will also go through hints for difficult questions on the board during the retake process. You will also have access to the answers on your original attempt, but the order of questions may not be the same!
 
@@ -215,7 +215,7 @@ I must receive a notification for accommodation from [SDS](https://myusf.usfca.e
 
 For exams proctored by SDS, Canvas will be configured to automatically allow you to (1) begin the exam at your scheduled appointment time and (2) give you the additional time stipulated by your SDS alternative testing contract.
 
-You may take the exam on your own laptop or on a computer provided by SDS, but will be expected to use the Lockdown Browser. It will be configured to automatically allow you access to the allowed Java, JUnit, and ~~Log4j2~~ websites. If necessary, you can bring your own piece of scratch paper and turn it in directly to the professor when you are done.
+You may take the exam on your own laptop or on a computer provided by SDS, ~~but will be expected to use the Lockdown Browser~~. It will be configured to automatically allow you access to the allowed Java, JUnit, and ~~Log4j2~~ websites. If necessary, you can bring your own piece of scratch paper and turn it in directly to the professor when you are done.
 
 I will be actively monitoring email for questions from your proctor, but there might be up to a 20 minute delay if your appointment happens when I am in class or in code reviews.
 
