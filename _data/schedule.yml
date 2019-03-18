@@ -671,15 +671,23 @@ weeks:
       date: 2019-03-19
       resources:
       - text: Assertions
-        icon: *icon_pending
-        type: grey
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upbWRtbVd6bVVRZ0k
 
       - text: Logging
-        icon: *icon_pending
-        type: grey
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upZnc3LTYyOHlsbmM
 
-      - <<: *project3
+      - text: "Quiz: Assertions"
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2336132
+        date: 2019-03-26
         bump: true
+
+      - text: "Quiz: Logging"
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333886
+        date: 2019-03-26
 
       deadlines:
       - <<: *project2
@@ -692,6 +700,9 @@ weeks:
       - text: Multithreading
         icon: *icon_pending
         type: grey
+
+      - <<: *project3
+        bump: true
 
     - type: Lab
       date: 2019-03-22
@@ -711,6 +722,17 @@ weeks:
       - text: Multithreading
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - text: Assertions
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2336132
+        date: 2019-03-26
+
+      - text: Logging
+        icon: *icon_quiz
+        link: https://usfca.instructure.com/courses/1582958/quizzes/2333886
+        date: 2019-03-26
 
     - type: Lecture
       date: 2019-03-28
