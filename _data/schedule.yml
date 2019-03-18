@@ -678,6 +678,11 @@ weeks:
         icon: *icon_slides
         link: https://drive.google.com/open?id=0BxYofk0iB_upZnc3LTYyOHlsbmM
 
+      - text: Debugging
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Debugging
+        bump: true
+
       - text: "Quiz: Assertions"
         icon: *icon_quiz
         link: https://usfca.instructure.com/courses/1582958/quizzes/2336132
