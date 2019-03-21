@@ -702,9 +702,17 @@ weeks:
     - type: Lecture
       date: 2019-03-21
       resources:
-      - text: Multithreading
-        icon: *icon_pending
-        type: grey
+      - text: Multithreading Introduction
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upbEhHOTFSODFZcDg
+
+      - text: Synchronization
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM
+
+      - text: Thread Liveness
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upNkNlWGl5VnU3RVE
 
       - <<: *project3
         bump: true
@@ -712,7 +720,7 @@ weeks:
     - type: Lab
       date: 2019-03-22
       resources:
-      - <<: *homework7 # readwritelock
+      - <<: *homework7 # loggersetup
 
       - <<: *csevent2
         bump: true
