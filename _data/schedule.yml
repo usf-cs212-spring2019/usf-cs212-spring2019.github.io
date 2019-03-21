@@ -75,20 +75,20 @@ assignments:
       date: 2019-03-01
       link: https://usfca.instructure.com/courses/1582958/assignments/6818768
 
-  - homework6: &homework6
-      text: Homework TBA
-      icon: *icon_homework
-      date: 2019-03-08
-      link: https://usfca.instructure.com/courses/1582958/assignments/6818769
+  # - homework6: &homework6
+  #     text: LoggerSetup
+  #     icon: *icon_homework
+  #     date: 2019-03-08
+  #     link: https://usfca.instructure.com/courses/1582958/assignments/6818769
 
   - homework7: &homework7
-      text: ReadWriteLock
+      text: LoggerSetup
       icon: *icon_homework
       date: 2019-03-29
       link: https://usfca.instructure.com/courses/1582958/assignments/6818770
 
   - homework8: &homework8
-      text: Homework TBA
+      text: SimpleReadWriteLock
       icon: *icon_homework
       date: 2019-04-05
       link: https://usfca.instructure.com/courses/1582958/assignments/6818772
