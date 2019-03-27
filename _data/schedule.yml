@@ -120,13 +120,13 @@ assignments:
   - project3: &project3
       text: Project 3
       icon: *icon_project
-      date: 2019-04-09
+      date: 2019-04-16
       link: /guides/projects/project-3.html
 
   - project4: &project4
       text: Project 4
       icon: *icon_project
-      date: 2019-04-30
+      date: 2019-05-07
 
   - csevent1: &csevent1
       text: CS Event 1
@@ -843,10 +843,6 @@ weeks:
         type: danger
         date: 2019-04-08
 
-      - <<: *project3
-        text: Project 3 Checkpoint
-        type: primary
-
     - type: Lecture
       date: 2019-04-11
       resources:
@@ -870,6 +866,11 @@ weeks:
       - text: Sessions
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - <<: *project3
+        text: Project 3 Checkpoint (Extended)
+        type: primary
 
     - type: No Class
       date: 2019-04-18
@@ -923,11 +924,6 @@ weeks:
         icon: *icon_exam
         type: danger
 
-      deadlines:
-      - <<: *project4
-        text: Project 4 Web Crawler
-        type: primary
-
     - type: Lecture
       date: 2019-05-02
       resources:
@@ -950,6 +946,11 @@ weeks:
       - text: JDBC
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - <<: *project4
+        text: Project 4 Web Crawler (Extended)
+        type: primary
 
     - type: Lecture
       date: 2019-05-09

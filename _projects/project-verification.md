@@ -4,6 +4,10 @@ navbar: Guides
 layout: guides
 key: 0.3
 
+tags:
+  - text: 'Updated'
+    type: 'is-primary'
+
 assignments:
   - text: Project 1 Functionality
     link: https://usfca.instructure.com/courses/1582958/assignments/6818588
@@ -71,15 +75,15 @@ If you make a mistake, please edit the issue. Do **not** delete the issue or clo
 
 Your functionality grade will be based on the **date you created the issue** that passed verification. If the issue date is before the checkpoint deadline, you will earn 100% on the project functionality. If the issue date is after the checkpoint deadline, your grade will be deducted 10% (up to a maximum of 30%) per week.
 
-The functionality deadline schedule is below (assume all deadlines are at 11:59pm):
+The functionality deadline schedule is below (assume all deadlines are at 11:59pm): <span class="tag is-primary">Updated</span>
 
 | Grade | Project 1  | Project 2  | Project 3  | Project 4  | Description   |
 |------:|:----------:|:----------:|:----------:|:----------:|:--------------|
-|  105% | &le; 02/19 | &le; 03/12 | &le; 04/02 | &le; 04/23 | Extra Credit<sup><em>*See Below</em></sup> |
-|  100% | &le; 02/26 | &le; 03/19 | &le; 04/09 | &le; 04/30 | Checkpoint |
-|   90% | &le; 03/05 | &le; 03/26 | &le; 04/16 | &le; 05/07 | 1 Week Late |
-|   80% | &le; 03/12 | &le; 04/02 | &le; 04/23 | &gt; 05/07 | 2 Weeks Late |
-|   70% | &le; 03/19 |            | &le; 04/30 |            | 3 Weeks Late |
+|  105% | &le; 02/19 | &le; 03/12 | &le; ~~04/02~~ 04/09 | &le; ~~04/23~~ 04/30 | Extra Credit<sup><em>*See Below</em></sup> |
+|  100% | &le; 02/26 | &le; 03/19 | &le; ~~04/09~~ 04/16 | &le; ~~04/30~~ 05/07 | Checkpoint |
+|   90% | &le; 03/05 | &le; 03/26 | &le; ~~04/16~~ 04/23 | &gt; 05/07 | 1 Week Late |
+|   80% | &le; 03/12 | &le; 04/02 | &le; ~~04/23~~ 04/30 |            | 2 Weeks Late |
+|   70% | &le; 03/19 |            | &le; ~~04/30~~ 05/07 |            | 3 Weeks Late |
 |    0% | &gt; 04/05 | &gt; 04/05 | &gt; 05/10 |            | Project Cutoff |
 
 Keep in mind the [project pass requirements](/syllabus.html#pass-requirements) for projects 1 and 2. All of your grades default to 0% if you do not pass the functionality of projects 1 and 2 by the project cutoff deadline on Friday, April 5, 2019. You must also pass the functionality of project 3 by the last day of the semester (before finals) on Friday, May 10, 2019.
