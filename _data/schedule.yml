@@ -788,9 +788,13 @@ weeks:
         link: https://drive.google.com/open?id=0BxYofk0iB_upVUgza255MzVCSVU
         bump: true
 
-      - text: Thread Pools and Work Queues
+      - text: Work Queues
         icon: *icon_slides
         link: https://drive.google.com/open?id=0BxYofk0iB_upbnlWWDFFRlRvWVU
+
+      - text: Work Queues
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Multithreading%20Work%20Queues
 
     - type: Lab
       date: 2019-03-29
@@ -805,9 +809,16 @@ weeks:
     - type: Lecture
       date: 2019-04-02
       resources:
-      - text: Multithreading
-        icon: *icon_pending
-        type: grey
+      - text: Work Queues
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upbnlWWDFFRlRvWVU
+
+      - text: Work Queues
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Multithreading%20Work%20Queues
+
+      - text: 'Quiz: Work Queues'
+        icon: *icon_quiz
 
       deadlines:
       - text: "Thread Basics"
