@@ -75,11 +75,11 @@ assignments:
       date: 2019-03-01
       link: https://usfca.instructure.com/courses/1582958/assignments/6818768
 
-  # - homework6: &homework6
-  #     text: LoggerSetup
-  #     icon: *icon_homework
-  #     date: 2019-03-08
-  #     link: https://usfca.instructure.com/courses/1582958/assignments/6818769
+  - homework6: &homework6
+      text: TBA
+      icon: *icon_homework
+      date: 2019-04-12
+      link: https://usfca.instructure.com/courses/1582958/assignments/6837958
 
   - homework7: &homework7
       text: LoggerSetup
@@ -96,7 +96,7 @@ assignments:
   - homework9: &homework9
       text: LinkParser
       icon: *icon_homework
-      date: 2019-04-12
+      date: 2019-04-26
       link: https://usfca.instructure.com/courses/1582958/assignments/6818771
 
   - homework10: &homework10
@@ -741,23 +741,25 @@ weeks:
       date: 2019-03-26
       zoom: https://usfca.zoom.us/recording/share/9wg-thCXhFq2-HfUGokwCcrHv5QaTrK2vGyyMd65_NWwIumekTziMw
       resources:
-      - text: Synchronization
-        icon: *icon_slides
-        link: https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM
-
-      - text: Synchronization
-        icon: *icon_code
-        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Multithreading%20Synchronization
-
       - text: "Quiz: Thread Basics"
         icon: *icon_quiz
         link: https://usfca.instructure.com/courses/1582958/quizzes/2333876
         date: 2019-04-02
 
+      - text: Synchronization
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM
+        bump: true
+
+      - text: Synchronization
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Multithreading%20Synchronization
+
       - text: "Quiz: Synchronization"
         icon: *icon_quiz
         link: https://usfca.instructure.com/courses/1582958/quizzes/2333864
         date: 2019-04-02
+        bump: true
 
       deadlines:
       - text: Assertions
@@ -773,14 +775,27 @@ weeks:
     - type: Lecture
       date: 2019-03-28
       resources:
-      - text: Multithreading
-        icon: *icon_pending
-        type: grey
+      - text: Conditional Sychronization
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upVTRzMnRpTndqcDg
+
+      - text: Synchronization
+        icon: *icon_code
+        link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Multithreading%20Synchronization
+
+      - text: Volatile Keyword
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upVUgza255MzVCSVU
+        bump: true
+
+      - text: Thread Pools and Work Queues
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upbnlWWDFFRlRvWVU
 
     - type: Lab
       date: 2019-03-29
       resources:
-      - <<: *homework8 # workqueue ???
+      - <<: *homework8 # SimpleReadWriteLock
 
       deadlines:
       - <<: *homework7
@@ -808,14 +823,14 @@ weeks:
     - type: Lecture
       date: 2019-04-04
       resources:
-      - text: Regular Expressions
+      - text: Sockets
         icon: *icon_pending
         type: grey
 
     - type: Lab
       date: 2019-04-05
       resources:
-      - <<: *homework9 # linkparser
+      - <<: *homework6 # workqueue???
 
       deadlines:
       - text: Project Cutoff 1
@@ -830,12 +845,9 @@ weeks:
     - type: Lecture
       date: 2019-04-09
       resources:
-      - text: Sockets
+      - text: Regular Expressions
         icon: *icon_pending
         type: grey
-
-      - <<: *project4
-        bump: true
 
       deadlines:
       - text: Withdraw Deadline
@@ -847,26 +859,30 @@ weeks:
     - type: Lecture
       date: 2019-04-11
       resources:
-      - text: Servlets
+      - text: Regular Expressions
         icon: *icon_pending
         type: grey
 
     - type: Lab
       date: 2019-04-12
       resources:
+      - <<: *homework9 # linkparser
       - <<: *homework10 # htmlcleaner
 
       deadlines:
-      - <<: *homework9
+      - <<: *homework6
 
 - week: 13
   days:
     - type: Lecture
       date: 2019-04-16
       resources:
-      - text: Sessions
+      - text: Servlets
         icon: *icon_pending
         type: grey
+
+      - <<: *project4
+        bump: true
 
       deadlines:
       - <<: *project3
@@ -909,11 +925,11 @@ weeks:
     - type: Lab
       date: 2019-04-26
       resources:
-      - text: Pending
-        icon: *icon_pending
-        type: grey
+      - <<: *project3
+      - <<: *project4
 
       deadlines:
+      - <<: *homework9 # linkparser
       - <<: *homework10
 
 - week: 15
@@ -944,7 +960,7 @@ weeks:
     - type: Lecture
       date: 2019-05-07
       resources:
-      - text: JDBC
+      - text: Sessions
         icon: *icon_pending
         type: grey
 
