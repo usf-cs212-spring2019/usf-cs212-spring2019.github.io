@@ -820,6 +820,8 @@ weeks:
 
       - text: 'Quiz: Work Queues'
         icon: *icon_quiz
+        link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333863'
+        date: 2019-04-09
 
       deadlines:
       - text: "Thread Basics"
@@ -862,11 +864,17 @@ weeks:
         type: grey
 
       deadlines:
+      - text: 'Work Queues'
+        icon: *icon_quiz
+        link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333863'
+        date: 2019-04-09
+
       - text: Withdraw Deadline
         icon:
           class: far fa-calendar-minus
         type: danger
         date: 2019-04-08
+        bump: true
 
     - type: Lecture
       date: 2019-04-11
