@@ -837,6 +837,17 @@ weeks:
     - type: Lecture
       date: 2019-04-04
       resources:
+
+      - text: 'Quiz: Web Basics'
+        icon: *icon_quiz
+        link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333881'
+        date: 2019-04-11
+
+      - text: 'Quiz: HTTP Basics'
+        icon: *icon_quiz
+        link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333899'
+        date: 2019-04-11
+
       - text: Sockets
         icon: *icon_pending
         type: grey
@@ -882,6 +893,17 @@ weeks:
       - text: Regular Expressions
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - text: 'Web Basics'
+        icon: *icon_quiz
+        link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333881'
+        date: 2019-04-11
+
+      - text: 'HTTP Basics'
+        icon: *icon_quiz
+        link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333899'
+        date: 2019-04-11
 
     - type: Lab
       date: 2019-04-12
