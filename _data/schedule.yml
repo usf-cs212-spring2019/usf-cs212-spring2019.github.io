@@ -774,6 +774,7 @@ weeks:
 
     - type: Lecture
       date: 2019-03-28
+      zoom: https://usfca.zoom.us/recording/share/dwOpV2wfnVYWv2Jch3b-5cSfAQ1FjAOHxwkuh9jk45iwIumekTziMw
       resources:
       - text: Conditional Sychronization
         icon: *icon_slides
