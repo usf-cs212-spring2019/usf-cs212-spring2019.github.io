@@ -838,15 +838,33 @@ weeks:
       date: 2019-04-04
       resources:
 
+      - text: 'Web - Basics'
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upNTVsMXdsa1F2bzg
+
+      - text: 'Web - URLs'
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upMUxuOWRuaUVIalU
+
+      - text: 'Web - HTTP'
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upTEhpWEw0TE9WSDA
+
+      - text: 'Web - HTML'
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_updW1qdnJEOXlMcTg
+
       - text: 'Quiz: Web Basics'
         icon: *icon_quiz
         link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333881'
         date: 2019-04-11
+        bump: true
 
       - text: 'Quiz: HTTP Basics'
         icon: *icon_quiz
         link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333899'
         date: 2019-04-11
+
 
       - text: Sockets
         icon: *icon_pending
