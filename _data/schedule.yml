@@ -865,10 +865,10 @@ weeks:
         link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333899'
         date: 2019-04-11
 
-
       - text: Sockets
-        icon: *icon_pending
-        type: grey
+        icon: *icon_code
+        link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Sockets'
+        bump: true
 
     - type: Lab
       date: 2019-04-05
