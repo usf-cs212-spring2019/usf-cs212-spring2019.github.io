@@ -837,6 +837,7 @@ weeks:
 
     - type: Lecture
       date: 2019-04-04
+      zoom: 'https://usfca.zoom.us/recording/share/egV7lImXtFkK8CwT3ehX_PQ4C4AvNiNhuzqYB0F2Hl2wIumekTziMw'
       resources:
 
       - text: 'Web - Basics'
