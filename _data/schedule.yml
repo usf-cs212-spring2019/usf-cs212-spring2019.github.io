@@ -891,8 +891,12 @@ weeks:
       date: 2019-04-09
       resources:
       - text: Regular Expressions
-        icon: *icon_pending
-        type: grey
+        icon: *icon_code
+        link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Regular%20Expressions'
+
+      - text: Regular Expressions
+        icon: *icon_video
+        link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF0-si4t072pEON5BNVyss2g'
 
       deadlines:
       - text: Withdraw Deadline
