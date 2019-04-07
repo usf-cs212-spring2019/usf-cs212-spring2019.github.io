@@ -898,6 +898,12 @@ weeks:
         icon: *icon_video
         link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF0-si4t072pEON5BNVyss2g'
 
+      - text: "Quiz: Regex Basics"
+        icon: *icon_quiz
+        link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333882'
+        date: 2019-04-16
+        bump: true
+
       deadlines:
       - text: Withdraw Deadline
         icon:
@@ -915,8 +921,8 @@ weeks:
       date: 2019-04-11
       resources:
       - text: Regular Expressions
-        icon: *icon_pending
-        type: grey
+        icon: *icon_code
+        link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Regular%20Expressions'
 
       deadlines:
       - text: 'Web Basics'
@@ -954,6 +960,11 @@ weeks:
       - <<: *project3
         text: Project 3 Checkpoint (Extended)
         type: primary
+
+      - text: "Regex Basics"
+        icon: *icon_quiz
+        link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333882'
+        date: 2019-04-16
 
     - type: No Class
       date: 2019-04-18
