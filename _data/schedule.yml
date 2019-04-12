@@ -93,14 +93,14 @@ assignments:
       date: 2019-04-05
       link: https://usfca.instructure.com/courses/1582958/assignments/6818772
 
-  - homework9: &homework9
-      text: LinkParser
-      icon: *icon_homework
-      date: 2019-04-26
-      link: https://usfca.instructure.com/courses/1582958/assignments/6818771
+  # - homework9: &homework9
+  #     text: LinkParser
+  #     icon: *icon_homework
+  #     date: 2019-04-26
+  #     link: https://usfca.instructure.com/courses/1582958/assignments/6818771
 
   - homework10: &homework10
-      text: HTMLCleaner
+      text: HtmlCleaner
       icon: *icon_homework
       date: 2019-04-26
       link: https://usfca.instructure.com/courses/1582958/assignments/6818773
@@ -920,10 +920,24 @@ weeks:
 
     - type: Lecture
       date: 2019-04-11
+      zoom: https://usfca.zoom.us/recording/share/QDYbVTkb1IBdDWtvXT_v224MKC4bOcCD04z6DvViikOwIumekTziMw
       resources:
-      - text: Regular Expressions
+      - text: 'Dynamic HTML - Basics'
+        icon: *icon_slides
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upY1ozdHk5VVYycUE'
+
+      - text: 'Dynamic HTML - Servlets'
+        icon: *icon_slides
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upZFFPWUZocmdtLWM'
+
+      - text: Sockets
         icon: *icon_code
-        link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Regular%20Expressions'
+        link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Sockets'
+        bump: true
+
+      - text: Servlets
+        icon: *icon_code
+        link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Servlets'
 
       deadlines:
       - text: 'Web Basics'
@@ -939,7 +953,7 @@ weeks:
     - type: Lab
       date: 2019-04-12
       resources:
-      - <<: *homework9 # linkparser
+      # - <<: *homework9 # linkparser
       - <<: *homework10 # htmlcleaner
 
       deadlines:
@@ -1007,7 +1021,7 @@ weeks:
       - <<: *project4
 
       deadlines:
-      - <<: *homework9 # linkparser
+      # - <<: *homework9 # linkparser
       - <<: *homework10
 
 - week: 15
