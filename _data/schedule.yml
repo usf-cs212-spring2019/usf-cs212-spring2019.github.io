@@ -1037,6 +1037,23 @@ weeks:
         icon: *icon_pending
         type: grey
 
+      deadlines:
+      - text: 'Alumni Interview 1'
+        icon: *icon_video
+        link: 'https://usfca.instructure.com/courses/1582958/discussion_topics/7806306'
+        bump: true
+        date: 2019-04-25
+
+      - text: 'Alumni Interview 2'
+        icon: *icon_video
+        link: 'https://usfca.instructure.com/courses/1582958/discussion_topics/7806305'
+        date: 2019-04-25
+
+      - text: 'Alumni Interview 3'
+        icon: *icon_video
+        link: 'https://usfca.instructure.com/courses/1582958/discussion_topics/7806304'
+        date: 2019-04-25
+
     - type: Lab
       date: 2019-04-26
       resources:
@@ -1046,22 +1063,6 @@ weeks:
       deadlines:
       # - <<: *homework9 # linkparser
       - <<: *homework10
-
-      - text: 'Alumni Interview 1'
-        icon: *icon_video
-        link: 'https://usfca.instructure.com/courses/1582958/discussion_topics/7806306'
-        bump: true
-        date: 2019-04-26
-
-      - text: 'Alumni Interview 2'
-        icon: *icon_video
-        link: 'https://usfca.instructure.com/courses/1582958/discussion_topics/7806305'
-        date: 2019-04-26
-
-      - text: 'Alumni Interview 3'
-        icon: *icon_video
-        link: 'https://usfca.instructure.com/courses/1582958/discussion_topics/7806304'
-        date: 2019-04-26
 
 - week: 15
   days:
