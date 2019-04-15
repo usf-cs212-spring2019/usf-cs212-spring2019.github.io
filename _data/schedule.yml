@@ -127,6 +127,7 @@ assignments:
       text: Project 4
       icon: *icon_project
       date: 2019-05-07
+      link: /guides/projects/project-4.html
 
   - csevent1: &csevent1
       text: CS Event 1
@@ -965,8 +966,12 @@ weeks:
       date: 2019-04-16
       resources:
       - text: Servlets
-        icon: *icon_pending
-        type: grey
+        icon: *icon_code
+        link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Servlets'
+
+      - text: 'Context Server/Servlet'
+        icon: *icon_video
+        link: 'https://youtu.be/kJDmEom17-Q'
 
       - <<: *project4
         bump: true
@@ -989,6 +994,19 @@ weeks:
           class: far fa-rabbit
         type: grey
 
+      - text: 'Alumni Interview 1'
+        icon: *icon_video
+        link: 'https://usfca.instructure.com/courses/1582958/discussion_topics/7806306'
+        bump: true
+
+      - text: 'Alumni Interview 2'
+        icon: *icon_video
+        link: 'https://usfca.instructure.com/courses/1582958/discussion_topics/7806305'
+
+      - text: 'Alumni Interview 3'
+        icon: *icon_video
+        link: 'https://usfca.instructure.com/courses/1582958/discussion_topics/7806304'
+
     - type: No Lab
       date: 2019-04-19
       resources:
@@ -1007,6 +1025,11 @@ weeks:
         icon: *icon_pending
         type: grey
 
+      - text: Exam 2 Review
+        icon: *icon_pending
+        type: grey
+        bump: true
+
     - type: Lecture
       date: 2019-04-25
       resources:
@@ -1023,6 +1046,22 @@ weeks:
       deadlines:
       # - <<: *homework9 # linkparser
       - <<: *homework10
+
+      - text: 'Alumni Interview 1'
+        icon: *icon_video
+        link: 'https://usfca.instructure.com/courses/1582958/discussion_topics/7806306'
+        bump: true
+        date: 2019-04-26
+
+      - text: 'Alumni Interview 2'
+        icon: *icon_video
+        link: 'https://usfca.instructure.com/courses/1582958/discussion_topics/7806305'
+        date: 2019-04-26
+
+      - text: 'Alumni Interview 3'
+        icon: *icon_video
+        link: 'https://usfca.instructure.com/courses/1582958/discussion_topics/7806304'
+        date: 2019-04-26
 
 - week: 15
   days:
