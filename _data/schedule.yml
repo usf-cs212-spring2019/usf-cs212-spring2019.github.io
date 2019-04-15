@@ -973,11 +973,16 @@ weeks:
         icon: *icon_video
         link: 'https://youtu.be/kJDmEom17-Q'
 
+      - text: 'Quiz: Jetty'
+        icon: *icon_quiz
+        link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333872'
+        bump: true
+
       - <<: *project4
         bump: true
       - text: Final Code Reviews
         icon: *icon_project
-        link: "/guides/projects/final-code-review.html"        
+        link: "/guides/projects/final-code-review.html"
 
       deadlines:
       - <<: *project3
@@ -1032,6 +1037,12 @@ weeks:
         icon: *icon_pending
         type: grey
         bump: true
+
+      deadlines:
+      - text: 'Jetty'
+        icon: *icon_quiz
+        link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333872'
+        date: 2019-04-23        
 
     - type: Lecture
       date: 2019-04-25
