@@ -975,6 +975,9 @@ weeks:
 
       - <<: *project4
         bump: true
+      - text: Final Code Reviews
+        icon: *icon_project
+        link: "/guides/projects/final-code-review.html"        
 
       deadlines:
       - <<: *project3
@@ -1131,4 +1134,4 @@ weeks:
       resources:
       - text: Final Code Reviews
         icon: *icon_project
-        type: grey
+        link: "/guides/projects/final-code-review.html"
