@@ -1032,6 +1032,10 @@ weeks:
       - text: SQL
         icon: *icon_pending
         type: grey
+        
+      - text: 'Database Accounts'
+        icon: *icon_website
+        link: 'https://usfca.instructure.com/courses/1582958/pages/database-accounts'
 
       - text: Exam 2 Review
         icon: *icon_pending
@@ -1042,7 +1046,7 @@ weeks:
       - text: 'Jetty'
         icon: *icon_quiz
         link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333872'
-        date: 2019-04-23        
+        date: 2019-04-23
 
     - type: Lecture
       date: 2019-04-25
