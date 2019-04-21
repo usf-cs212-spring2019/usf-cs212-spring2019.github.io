@@ -1048,9 +1048,18 @@ weeks:
         icon: *icon_website
         link: '/guides/sql/sql-intro-started.html'
 
+      - text: 'Quiz: SQL Joins'
+        icon: *icon_quiz
+        link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333861'
+        bump: true
+
+      - text: 'Quiz: SQL Grouping'
+        icon: *icon_quiz
+        link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333883'
+
       - text: Exam 2 Review
-        icon: *icon_pending
-        type: grey
+        icon: *icon_website
+        link: '/guides/exam-2.html'
         bump: true
 
       deadlines:
@@ -1094,8 +1103,18 @@ weeks:
       - <<: *project4
 
       deadlines:
-      # - <<: *homework9 # linkparser
       - <<: *homework10
+
+      - text: 'SQL Joins'
+        icon: *icon_quiz
+        link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333861'
+        bump: true
+        date: 2019-04-26
+
+      - text: 'SQL Grouping'
+        icon: *icon_quiz
+        link: 'https://usfca.instructure.com/courses/1582958/quizzes/2333883'
+        date: 2019-04-26
 
 - week: 15
   days:
