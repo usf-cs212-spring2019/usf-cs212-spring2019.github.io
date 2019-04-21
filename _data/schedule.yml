@@ -1029,13 +1029,23 @@ weeks:
     - type: Lecture
       date: 2019-04-23
       resources:
-      - text: SQL
-        icon: *icon_pending
-        type: grey
-        
+      - text: Relational Databases
+        icon: *icon_slides
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upQkdxdlZCOUZSYm8'
+
+      - text: 'Structured Query Language (SQL)'
+        icon: *icon_slides
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upblRyQ09qU1ExQkE'
+
       - text: 'Database Accounts'
         icon: *icon_website
         link: 'https://usfca.instructure.com/courses/1582958/pages/database-accounts'
+        bump: true
+        type: 'info has-text-weight-bold'
+
+      - text: 'SQL Introduction'
+        icon: *icon_website
+        link: '/guides/sql/sql-intro-started.html'
 
       - text: Exam 2 Review
         icon: *icon_pending
@@ -1051,9 +1061,13 @@ weeks:
     - type: Lecture
       date: 2019-04-25
       resources:
-      - text: SQL
-        icon: *icon_pending
-        type: grey
+      - text: 'SQL Introduction'
+        icon: *icon_website
+        link: '/guides/sql/sql-intro-started.html'
+
+      - text: 'SQL Demonstration'
+        icon: *icon_website
+        link: '/guides/sql/sql-demo-intro.html'
 
       deadlines:
       - text: 'Alumni Interview 1'
