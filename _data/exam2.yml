@@ -1,0 +1,204 @@
+- week: 9
+  topics:
+    - name: 'Debugging'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Debugging'
+
+    - name: 'Multithreading Basics'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Multithreading%20Basics'
+
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/q546jgASEvlI0FXy22y70cqmEmDlRb9ouDnQDsVA_CSwIumekTziMw'
+
+      thur: 'https://usfca.zoom.us/recording/share/kE0gxKRZeDHyJVYz0-4qZmO12Vp45b83cJf8mKMUSAuwIumekTziMw'
+
+  slides:
+    - name: 'Assertions'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upbWRtbVd6bVVRZ0k'
+
+    - name: 'Logging'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upZnc3LTYyOHlsbmM'
+
+    - name: 'Multithreading - Introduction'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upbEhHOTFSODFZcDg'
+
+    - name: 'Multithreading - Synchronization'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM'
+
+    - name: 'Multithreading - Thread Liveness'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upNkNlWGl5VnU3RVE'
+      drop: true
+
+  quizzes:
+    - name: 'Assertions'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2336917'
+
+    - name: 'Logging'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2336132'
+
+  homework:
+    - name: 'LoggerSetup'
+      link: 'https://github.com/usf-cs212-spring2019/template-loggersetup'
+
+- week: 10
+  topics:
+    - name: 'Synchronization'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Multithreading%20Synchronization'
+
+    - name: 'Work Queues'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Multithreading%20Work%20Queues'
+
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/9wg-thCXhFq2-HfUGokwCcrHv5QaTrK2vGyyMd65_NWwIumekTziMw'
+
+      thur: 'https://usfca.zoom.us/recording/share/dwOpV2wfnVYWv2Jch3b-5cSfAQ1FjAOHxwkuh9jk45iwIumekTziMw'
+
+  slides:
+    - name: 'Synchronization'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM'
+
+    - name: 'Conditional Synchronization'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upVTRzMnRpTndqcDg'
+
+    - name: 'Volatile Keyword'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upVUgza255MzVCSVU'
+
+    - name: 'Work Queues'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upbnlWWDFFRlRvWVU'
+
+  quizzes:
+    - name: 'Thread Basics'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2336918'
+
+    - name: 'Synchronization'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2336916'
+
+
+  homework:
+    - name: 'SimpleReadWriteLock '
+      link: 'https://github.com/usf-cs212-spring2019/template-simplereadwritelock'
+
+
+- week: 11
+  topics:
+    - name: 'Work Queues'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Multithreading%20Work%20Queues'
+
+    - name: 'Sockets'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Sockets'
+
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/a6TflEi0ToGSuVIzLfo0qmu5AEOjnuKRzzFsUkWYJl0'
+
+      thur: 'https://usfca.zoom.us/recording/share/egV7lImXtFkK8CwT3ehX_PQ4C4AvNiNhuzqYB0F2Hl2wIumekTziMw'
+
+  slides:
+    - name: 'Work Queues'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upbnlWWDFFRlRvWVU'
+
+    - name: 'Web - Basics'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upNTVsMXdsa1F2bzg'
+
+    - name: 'Web - URLs'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upMUxuOWRuaUVIalU'
+
+    - name: 'Web - HTTP'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upTEhpWEw0TE9WSDA'
+
+    - name: 'Web - HTML'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_updW1qdnJEOXlMcTg'
+
+  quizzes:
+    - name: 'Work Queues'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2336912'
+
+    - name: 'Web Basics'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2336910'
+
+    - name: 'HTTP Basics'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2336911'
+
+
+  homework:
+    - name: 'PrimeFinder'
+      link: 'https://github.com/usf-cs212-spring2019/template-primefinder'
+
+- week: 12
+  topics:
+    - name: 'Regular Expressions'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Regular%20Expressions'
+
+    - name: 'Regular Expressions'
+      link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF0-si4t072pEON5BNVyss2g'
+
+    - name: 'Sockets'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Sockets'
+
+    - name: 'Servlets'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Servlets'
+
+
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/fMSla35ONhDFQLVtUvXn-lIcuCaFyENFck4ou-qXaTqwIumekTziMw'
+
+      thur: 'https://usfca.zoom.us/recording/share/QDYbVTkb1IBdDWtvXT_v224MKC4bOcCD04z6DvViikOwIumekTziMw'
+
+  slides:
+    - name: 'Dynamic HTML - Basics'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upY1ozdHk5VVYycUE'
+
+    - name: 'Dynamic HTML - Servlets'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upZFFPWUZocmdtLWM'
+
+  quizzes:
+    - name: 'Regex Basics'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2336909'
+
+  homework:
+    - name: 'HtmlCleaner'
+      link: 'https://github.com/usf-cs212-spring2019/template-htmlcleaner'
+
+- week: 13
+  topics:
+    - name: 'Servlets'
+      link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Servlets'
+
+    - name: 'Context Server'
+      link: 'https://youtu.be/kJDmEom17-Q'
+
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/YHNRnXyrqS735X7um__mLQLCvuIV_2wam4Y-6lOrkjuwIumekTziMw'
+
+
+  quizzes:
+    - name: 'Jetty'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2336914'
+
+- week: 14
+  topics:
+    - name: 'SQL Demos'
+      link: '/guides/sql/'
+
+  # videos:
+  #   section1:
+  #     tues: '#'
+  #
+  #     thur: '#'
+
+  slides:
+    - name: 'Relational Databases'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upQkdxdlZCOUZSYm8'
+
+    - name: 'Structured Query Language (SQL)'
+      link: 'https://drive.google.com/open?id=0BxYofk0iB_upblRyQ09qU1ExQkE'
+
+  quizzes:
+    - name: 'SQL Joins'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2336913'
+
+    - name: 'SQL Grouping'
+      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2336915'
