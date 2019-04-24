@@ -183,11 +183,9 @@
     - name: 'SQL Demos'
       link: '/guides/sql/'
 
-  # videos:
-  #   section1:
-  #     tues: '#'
-  #
-  #     thur: '#'
+  videos:
+    section1:
+      tues: 'https://usfca.zoom.us/recording/share/6NvvgoW8be9DaC0rBOA5RIp29EPsgtXKOYi0-rIn43CwIumekTziMw'
 
   slides:
     - name: 'Relational Databases'

@@ -1029,6 +1029,7 @@ weeks:
   days:
     - type: Lecture
       date: 2019-04-23
+      zoom: 'https://usfca.zoom.us/recording/share/6NvvgoW8be9DaC0rBOA5RIp29EPsgtXKOYi0-rIn43CwIumekTziMw'
       resources:
       - text: Relational Databases
         icon: *icon_slides
