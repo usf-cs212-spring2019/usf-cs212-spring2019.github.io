@@ -42,6 +42,9 @@ icons_special:
   pending: &icon_pending
     label: Pending
     class: far fa-question-square
+  evals: &icon_evals
+    label: Special
+    class: far fa-users-class
 
 # reusable assignments
 assignments:
@@ -1149,6 +1152,15 @@ weeks:
         icon: *icon_pending
         type: grey
 
+      - text: Course Survey (Informal)
+        icon: *icon_evals
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLScowKx9e1M4TfOG4upFyobwl1EWhdXtUOxZDsaUoiBNCt6clg/viewform?usp=sf_link'
+        bump: true
+
+      - text: Course Survey (Official)
+        icon: *icon_evals
+        link: 'https://myusf.usfca.edu/registration/teaching-effectiveness-survey-faq-for-students'
+
       deadlines:
       - <<: *project4
         text: Project 4 Web Crawler (Extended)
@@ -1177,6 +1189,15 @@ weeks:
         bump: true
 
       - <<: *piazza2
+
+      - text: Course Survey (Informal)
+        icon: *icon_evals
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLScowKx9e1M4TfOG4upFyobwl1EWhdXtUOxZDsaUoiBNCt6clg/viewform?usp=sf_link'
+        bump: true
+
+      - text: Course Survey (Official)
+        icon: *icon_evals
+        link: 'https://myusf.usfca.edu/registration/teaching-effectiveness-survey-faq-for-students'
 
 - text: Finals
   days:
