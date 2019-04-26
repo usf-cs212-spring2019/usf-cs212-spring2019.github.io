@@ -1102,6 +1102,7 @@ weeks:
 
     - type: Lab
       date: 2019-04-26
+      zoom: 'https://usfca.zoom.us/recording/share/cqofmK2acnPgYHLRqDCbK7cNA28EHh3eauP6YlxFsvKwIumekTziMw'
       resources:
       - <<: *project3
       - <<: *project4
