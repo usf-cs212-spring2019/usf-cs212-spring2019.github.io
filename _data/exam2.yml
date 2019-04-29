@@ -30,9 +30,6 @@
       drop: true
 
   quizzes:
-    - name: 'Assertions'
-      link: 'https://usfca.instructure.com/courses/1582958/quizzes/2336917'
-
     - name: 'Logging'
       link: 'https://usfca.instructure.com/courses/1582958/quizzes/2336132'
 

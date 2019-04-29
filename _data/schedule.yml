@@ -689,12 +689,6 @@ weeks:
         link: https://github.com/usf-cs212-spring2019/lectures/tree/master/Debugging
         bump: true
 
-      - text: "Quiz: Assertions"
-        icon: *icon_quiz
-        link: https://usfca.instructure.com/courses/1582958/quizzes/2336132
-        date: 2019-03-26
-        bump: true
-
       - text: "Quiz: Logging"
         icon: *icon_quiz
         link: https://usfca.instructure.com/courses/1582958/quizzes/2333886
@@ -766,11 +760,6 @@ weeks:
         bump: true
 
       deadlines:
-      - text: Assertions
-        icon: *icon_quiz
-        link: https://usfca.instructure.com/courses/1582958/quizzes/2336132
-        date: 2019-03-26
-
       - text: Logging
         icon: *icon_quiz
         link: https://usfca.instructure.com/courses/1582958/quizzes/2333886
