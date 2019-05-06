@@ -1139,8 +1139,8 @@ weeks:
       date: 2019-05-07
       resources:
       - text: Sessions
-        icon: *icon_pending
-        type: grey
+        icon: *icon_code
+        link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Sessions'
 
       - text: Course Survey (Informal)
         icon: *icon_evals
