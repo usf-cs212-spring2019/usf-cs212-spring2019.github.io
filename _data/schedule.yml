@@ -1137,6 +1137,7 @@ weeks:
   days:
     - type: Lecture
       date: 2019-05-07
+      zoom: 'https://usfca.zoom.us/recording/share/seq2hKWDB8_5iI6EAzxbSTob1U2owKaS08gzq4XMCcOwIumekTziMw'
       resources:
       - text: Sessions
         icon: *icon_code
@@ -1160,8 +1161,16 @@ weeks:
       date: 2019-05-09
       resources:
       - text: JDBC
-        icon: *icon_pending
-        type: grey
+        icon: *icon_slides
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upNUp2V1BiWGw3NlU'
+
+      - text: 'Jetty and JDBC'
+        icon: *icon_code
+
+      - text: Login Demo (Old)
+        icon: *icon_video
+        link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF3iA7aZw7ueSWIgEahClJPb'
+        bump: true
 
     - type: No Lab
       date: 2019-05-10
