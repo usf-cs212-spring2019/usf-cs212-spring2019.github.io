@@ -84,9 +84,11 @@ You must implement a minimum of 70 points worth of additional features. These fe
 
     - **Location Browser (5 points)**: Allow users to browse all of the locations and their word counts stored by your inverted index as an HTML page with clickable links to all of the indexed URLs.
 
-    - **I'm Feeling Lucky Button (5 points)**: Add a new button to your search page (in addition to the normal search button) that automatically redirects the user to the first search result instead of listing all of the search results. This is similar to the "I'm Feeling Lucky" button that Google Search includes on its page. You have to consider what to do if there are no search results! 
+    - **I'm Feeling Lucky Button (5 points)**: Add a new button to your search page (in addition to the normal search button) that automatically redirects the user to the first search result instead of listing all of the search results. This is similar to the "I'm Feeling Lucky" button that Google Search includes on its page. You have to consider what to do if there are no search results!
 
     - **StringTemplate (5 points)**: Use `StringTemplate` to generate your HTML instead of several `println()` statements. See for <http://www.cs.usfca.edu/~parrt/course/601/lectures/stringtemplate.html> more information on `StringTemplate`.
+
+    - **Page Statistics (5 points):** In addition to providing a clickable link for each search result (i.e. web page), display the page title (via the `<title>` tag in HTML), word count, and content length (via the `Content-Length` HTTP header). This information can be stored in-memory (no database connectivity required) by your web crawler (except word count, which is already stored by your inverted index).
 
     - **Search Statistics (5 points)**: Display the total number of results along with the time it took to calculate and fetch those results, and display the score and number of matches per search result listed.
 
