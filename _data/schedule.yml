@@ -1159,6 +1159,7 @@ weeks:
 
     - type: Lecture
       date: 2019-05-09
+      zoom: 'https://usfca.zoom.us/recording/share/ICwf0zCkV8jUz3uneuxgBI_QjYsfqEnY5EEofXFIJx-wIumekTziMw'
       resources:
       - text: JDBC
         icon: *icon_slides
