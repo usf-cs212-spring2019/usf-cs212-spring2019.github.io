@@ -1167,6 +1167,7 @@ weeks:
 
       - text: 'Jetty and JDBC'
         icon: *icon_code
+        link: 'https://github.com/usf-cs212-spring2019/lectures/tree/master/Jetty%20and%20JDBC'
 
       - text: Login Demo (Old)
         icon: *icon_video
